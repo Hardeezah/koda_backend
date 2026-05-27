@@ -1,0 +1,20 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+redis
+pydantic-settings
+python-dotenv
+langchain
+langchain-openai
+pydantic
+python-multipart
+supabase
+# Testing
+pytest
+pytest-asyncio
+pytest-cov
+httpx
+# Linting & Formatting
+ruff
+black

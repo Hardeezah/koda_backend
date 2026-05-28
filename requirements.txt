@@ -11,6 +11,7 @@ groq
 pydantic
 python-multipart
 supabase
+reportlab
 # Testing
 pytest
 pytest-asyncio

@@ -18,3 +18,4 @@ httpx
 # Linting & Formatting
 ruff
 black
+upstash-redis

@@ -7,6 +7,7 @@ pydantic-settings
 python-dotenv
 langchain
 langchain-openai
+groq
 pydantic
 python-multipart
 supabase

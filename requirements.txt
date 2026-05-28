@@ -9,6 +9,7 @@ langchain
 langchain-openai
 groq
 pydantic
+email-validator
 python-multipart
 supabase
 reportlab

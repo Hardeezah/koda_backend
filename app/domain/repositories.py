@@ -36,3 +36,7 @@ class ProductRepository(ABC):
     @abstractmethod
     async def get_by_id(self, product_id: str) -> Optional[ProductMetadata]:
         pass
+
+    @abstractmethod
+    async def get_by_name(self, name: str) -> Optional[ProductMetadata]:
+        pass

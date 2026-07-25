@@ -1,0 +1,466 @@
+NAFDAC IMPORT GUIDELINES - REGISTRATION AND COMPLIANCE
+Source: National Agency for Food and Drug Administration and Control (NAFDAC)
+Website: https://nafdac.gov.ng
+Registration Portal: https://registration.nafdac.gov.ng (NAPAMS)
+Reference: NAFDAC Act Cap N1 LFN 2004
+Effective: Current as of 2025-2026
+
+========================================================================
+NAFDAC - COMPLETE IMPORT REGISTRATION AND COMPLIANCE GUIDE
+========================================================================
+
+========================================================================
+SECTION 1: ABOUT NAFDAC
+========================================================================
+
+The National Agency for Food and Drug Administration and Control
+(NAFDAC) is the Federal Government agency responsible for regulating
+and controlling the manufacture, importation, exportation, advertisement,
+distribution, sale, and use of food, drugs, cosmetics, medical devices,
+chemicals, detergents, and packaged water in Nigeria.
+
+NAFDAC was established by Decree 15 of 1974 (now NAFDAC Act Cap N1
+LFN 2004). The agency's mandate is to protect public health by ensuring
+that only safe, efficacious, and quality products are available to
+Nigerian consumers.
+
+Contact Information:
+    Customer Service (Enquiries): 0700-1-NAFDAC (0700-1-623322)
+    Customer Service (Complaints): 0800-1-NAFDAC (0800-1-623322)
+    Email (General): cer@nafdac.gov.ng
+    Email (Food Registration): food.registration@nafdac.gov.ng
+    Email (Drug Registration): registration@nafdac.gov.ng
+    Email (Ports): ports@nafdac.gov.ng
+    HQ: Plot 2032, Obasanjo Way, Zone 7, Wuse, Abuja
+    Lagos Office: Plot 1, Isolo Industrial Estate, Oshodi-Apapa Express Way, Isolo, Lagos
+
+========================================================================
+SECTION 2: PRODUCT CATEGORIES REQUIRING NAFDAC REGISTRATION
+========================================================================
+
+NAFDAC regulates SEVEN major product categories. No product in any of
+these categories may be manufactured, imported, exported, advertised,
+sold, distributed, or used in Nigeria unless registered with NAFDAC:
+
+1. DRUGS (Human and Veterinary)
+   - Pharmaceuticals (OTC and Prescription Only Medicines)
+   - Vaccines, biologicals
+   - Orphan drugs
+   - Veterinary medicines
+
+2. FOOD
+   - Processed food products
+   - Packaged water (bottled and sachet)
+   - Food raw materials
+   - Animal feed
+   - Dietary supplements and nutraceuticals
+
+3. CHEMICALS
+   - Industrial chemicals
+   - Laboratory chemicals
+   - Restricted chemicals
+   - Agrochemicals and pesticides
+
+4. COSMETICS
+   - All cosmetic products
+   - Personal care products
+   - Hair care products
+   - Skin care products
+
+5. MEDICAL DEVICES
+   - In-vitro diagnostics (IVDs)
+   - Surgical instruments
+   - Diagnostic equipment
+   - Therapeutic devices
+
+6. VACCINES, BIOLOGICALS, AND HERBAL REMEDIES
+   - Herbal medicines
+   - Dietary supplements
+   - Nutraceuticals
+   - Vaccines
+
+7. NARCOTICS AND CONTROLLED SUBSTANCES
+   - Subject to additional import permits
+   - Controlled under NDLEA coordination
+   - Strict quantity and end-user controls
+
+========================================================================
+SECTION 3: IMPORT REGISTRATION PROCESS
+========================================================================
+
+The registration process follows a 5-STEP STRUCTURE across all
+product categories:
+
+STEP 1: DOCUMENTATION AND APPLICATION
+    - Submit all required documents via NAPAMS portal (online)
+    - Submit original documents at NAFDAC Liaison Office
+    - Application letter addressed to the Director General
+    - All documents must be complete and correctly described
+
+STEP 2: IMPORT PERMIT AND LABEL VETTING
+    - Upon satisfactory document screening
+    - Product labels and artwork reviewed for compliance
+    - Import permit issued for applicable products
+
+STEP 3: LABORATORY SAMPLING AND ANALYSIS
+    - Submit product samples when notified by NAFDAC
+    - Samples tested in NAFDAC-accredited laboratories
+    - Certificate of Analysis (CoA) must accompany samples
+    - Payment proof required before analysis begins
+
+STEP 4: PRODUCT APPROVAL MEETING
+    - Food Drug Registration Committee (FDRC) reviews:
+      * Dossier
+      * GMP (Good Manufacturing Practice) documentation
+      * Laboratory results
+    - Compliance directives may be issued
+    - Client must respond within 7 working days
+
+STEP 5: CERTIFICATE ISSUANCE
+    - Electronic Certificate of Registration issued
+    - NAFDAC Registration Number assigned
+    - Product added to NAFDAC Greenbook (registered products database)
+    - Certificate valid for 5 years (renewable)
+
+========================================================================
+SECTION 4: TIMELINES
+========================================================================
+
+Registration Timelines (from acceptance of application):
+
+Product Category    Total Processing Time
+Food Products       90 working days
+Drug Products       240 working days
+Cosmetics           120 working days
+Medical Devices     120 working days
+Herbal/Nutraceuticals   120 working days
+
+Detailed Food Product Timeline:
+    Submission of Application:           0 days
+    Document Verification:               10 working days
+    Facility Inspection/Sampling:        20 working days
+    Laboratory Analysis:                 30 working days
+    Final Vetting:                       10 working days
+    Approval Meeting & Issuance:         20 working days
+    TOTAL:                               90 working days
+
+Detailed Drug Product Timeline:
+    Submission of Application:           0 days
+    Document Verification:               40 working days
+    Facility Inspection/Sampling:        50 working days
+    Laboratory Analysis:                 60 working days
+    Final Vetting:                       68 working days
+    Approval Meeting & Issuance:         22 working days
+    TOTAL:                               240 working days
+
+IMPORTANT NOTES:
+- The clock STOPS when a Compliance Directive (CD) is issued
+- Clients must respond to CDs within 7 working days
+- Failure to respond within 90 working days leads to automatic
+  application closure
+- Delays caused by the client are not counted in the timelines
+
+Minor Variations:
+    Food Products: 60 working days
+    Drug Products: 168 working days
+
+========================================================================
+SECTION 5: REQUIRED DOCUMENTS BY PRODUCT TYPE
+========================================================================
+
+5.1 IMPORTED DRUG PRODUCTS (Human and Veterinary)
+
+Required Documents:
+1. Dossier Screening Clearance
+2. Application letter to DG (Attention: Director, DR&R Directorate,
+   Isolo, Lagos)
+3. Notarized Declaration (Appendix I) - notarized by Notary Public
+   in Nigeria
+4. Power of Attorney (if applicant doesn't own brand) OR
+   Contract Manufacturing Agreement (if applicant owns brand)
+   - POA: issued by manufacturer, signed by MD/GM/Chairman/President
+   - Must be valid for minimum 5 years
+   - Must be notarized in country of manufacture
+5. Evidence of Business Incorporation (CAC Nigeria)
+6. Manufacturing License / Certificate of Free Sale
+   - Issued by regulatory body in country of manufacture
+7. Certificate of Pharmaceutical Product (COPP)
+   - WHO format
+   - Authenticated by Nigerian Embassy/High Commission in country
+     of origin
+8. Current GMP Certificate of manufacturing facility
+   - Valid at time of submission
+   - Authenticated by Nigerian Embassy
+9. Trademark Registration with Federal Ministry of Industry, Trade
+   and Investment (Class 5 for drugs)
+10. Valid Superintendent Pharmacist Annual License (PCN)
+11. Valid Premises Retention License
+12. Letter of Invitation for GMP Inspection
+    - From manufacturer abroad
+    - Must state: manufacturer info, local agent info, products
+      for registration
+
+Additional for New Chemical Entities (NCEs):
+- Clinical trial evidence in relevant population
+
+Additional for Generics:
+- Bioequivalence study report or Biowaiver data (CTD format)
+
+5.2 IMPORTED FOOD PRODUCTS
+
+Required Documents:
+1. Written application on company letterhead
+   (to DG, Attention: Director, Food Registration & R&R Directorate)
+2. Notarized Declaration
+3. Power of Attorney OR Contract Manufacturing Agreement
+4. Certificate of Manufacture and Free Sale
+   - Authenticated by Nigerian Embassy
+5. Comprehensive Certificate of Analysis
+6. Evidence of Business Incorporation (CAC)
+7. Trademark Registration
+8. Product Label/Artwork
+9. Letter of Invitation for GMP Inspection from manufacturer abroad
+
+5.3 IMPORTED COSMETICS
+
+Required Documents:
+1. Application letter to DG (Attention: Director, DR&R Directorate)
+2. Evidence of Business Incorporation (CAC)
+3. Notarized Declaration
+4. Power of Attorney (valid minimum 5 years, notarized) OR
+   Contract Manufacturing Agreement
+5. Trademark Registration
+6. Certificate of Manufacture and Free Sale
+   - Authenticated by Nigerian Embassy
+7. Comprehensive Certificate of Analysis
+8. Product Labels/Artwork
+9. Letter of Invitation for GMP Inspection
+
+5.4 MEDICAL DEVICES
+
+Additional Documents (beyond common requirements):
+- Technical Documents including Declaration of Conformity
+- Device identification information
+- IMDRF (International Medical Device Regulators Forum) guidance
+  compliance documentation
+
+========================================================================
+SECTION 6: LABELLING REQUIREMENTS
+========================================================================
+
+6.1 DRUG LABELS (Minimum Requirements)
+
+Required Elements:
+- Product Name: Brand name + generic name (conspicuous, directly
+  under brand name)
+- Manufacturer: Full name and location address
+- NAFDAC Registration Number: Provision on label
+- Batch Number: Required
+- Dates: Manufacturing date + Expiry date
+- Dosage: Dosage form and strength
+- Administration: Indications, frequency, route, conditions (OTC)
+- Dosage Regimen: Required for OTC products
+- Patient Information Leaflet (PIL): Required
+- Prescribing Information: For POM drugs
+- Net Content: Required
+- Active Ingredients: Quantitative listing per unit dose
+- Warnings: Adequate warnings as appropriate
+- Storage Conditions: Required
+- Withdrawal Period: For all veterinary drugs
+- ENGLISH ONLY: Foreign-language labels NOT accepted without
+  English translation
+
+6.2 FOOD PRODUCT LABELS
+
+Compliance with Pre-packaged Food (Labeling) Regulations 2022:
+- Name of food (brand name)
+- Manufacturer address
+- NAFDAC Registration Number
+- Batch number, manufacturing date, expiry date
+- Net content
+- Complete ingredient list (in descending order of proportion)
+- Adequate warnings where applicable
+- English translation required if labeled in foreign language
+- International Code of Marketing of Breastmilk Substitutes compliance
+
+6.3 GENERAL LABELLING RULES
+
+- Products with names/labels resembling already-registered products
+  will be REJECTED
+- Foreign language labels require English translation
+- All warnings must be in English
+- NAFDAC Registration Number must appear on all labels
+
+========================================================================
+SECTION 7: REGISTRATION FEES (NAFDAC TARIFF)
+========================================================================
+
+All fees in Naira (N), exclusive of 5% VAT, current as of January 2024.
+
+7.1 REGISTRATION FEES PER PRODUCT
+
+Category                              Local           Foreign/Imported
+Food (Class 1 - can be mfg locally)   -               $1,350 USD
+Food (Class 2 - no local mfg)         -               $1,252 USD
+Food (Micro Enterprise)               N22,000         N/A
+Food (Small Enterprise)               N30,000         N/A
+Food (Medium/Large)                   N40,000         N/A
+Pharmaceuticals - Full Registration   N80,000+        $1,252 USD
+OTC Medicines                         N80,000         $967 USD
+POM (Class 1 - local mfg)             N80,000         $1,280 USD
+POM (Class 2 - no local mfg)          N80,000         $1,200 USD
+Orphan Drugs                          N80,000         $967 USD
+Vaccines/Biologicals                  N80,000         $1,200 USD
+Veterinary Medicines                  N80,000         $1,200 USD
+Clinical Data Review (NCE)            N50,000         -
+Cosmetics (Micro)                     N22,000         N/A
+Cosmetics (Small)                     N66,000         N/A
+Cosmetics (Medium/Large)              N85,000         $1,252 USD
+Herbal/Nutraceuticals (Full)          N80,000         $1,252 USD
+Herbal/Nutraceuticals (Listing)       N20,000-40,000  $612.63 USD
+Medical Devices (1)                   N20,000         $750 USD
+Medical Devices (2 - diapers/pads)    N20,000         $874 USD
+Pesticides/Biopesticides              N85,000         $972 USD
+
+7.2 RENEWAL FEES
+
+Registration Renewal: 80% of new registration cost
+Same fees apply for new registration
+Additional source/site or change of source: Same as new registration
+
+7.3 OTHER FEES
+
+Fast Food Listing (Import):
+    1-100 items:     N1,000,000
+    101-250 items:   N2,500,000
+    251-500 items:   N5,000,000
+
+Global/Supermarket Listing (Import):
+    1-100 items:     N1,500,000
+    101-500 items:   N5,000,000
+    501-1000 items:  N10,000,000
+    1001-5000 items: N20,000,000
+
+No Objection Approval: N300,000 per product (max 3 per annum)
+Pharmacovigilance/Post-Marketing Annual Fee: 10% of registration fee
+Ports Fast Track Scheme Annual Fee: N50,000
+
+7.4 PORT CLEARANCE FEES (Food Import Inspection)
+
+Inspection per consignment (20ft container): N20,000 + 5% VAT
+Lab analysis per product: N50,000 + 5% VAT
+Irradiation per product: N25,000 + 5% VAT
+Bulk food inspection (shipload): N50,000 + 5% VAT
+
+========================================================================
+SECTION 8: CERTIFICATE VALIDITY AND RENEWAL
+========================================================================
+
+Certificate Type          Validity Period
+Registration Certificate  5 years (renewable)
+Listing Certificate        2 years
+Advertising Permit         Separate application required
+
+IMPORTANT NOTES:
+- Registration does NOT automatically confer import permit
+- Registration does NOT automatically confer advertising rights
+- Separate applications required for each
+- Clock stops when Compliance Directive is issued
+- Application closure if no response to queries within 90 working days
+
+========================================================================
+SECTION 9: PORT CLEARANCE PROCEDURES
+========================================================================
+
+9.1 PRE-ARRIVAL REQUIREMENTS
+    - 48-hour advance notice to NAFDAC before product arrival at port
+    - All NAFDAC documentation must be in order
+    - NAFDAC port inspection team must be notified
+
+9.2 CLEARANCE PROCESS
+    Step 1: Products arrive at port
+    Step 2: NAFDAC port inspection team inspects consignment
+    Step 3: Samples collected for laboratory analysis
+    Step 4: Products CANNOT be sold until NAFDAC issues satisfactory
+            pronouncement after lab analysis
+    Step 5: If satisfactory, NAFDAC issues port clearance
+    Step 6: If unsatisfactory, product may be:
+            - Rejected and re-exported
+            - Destroyed at importer's cost
+            - Subject to compliance directive
+
+9.3 SPECIAL REQUIREMENTS
+    - Pharmaceuticals from India/China: Clean Report of Inspection
+      and Analysis (CRIA) required at port clearance
+    - NAFDAC must be present at port for regulated products
+    - Products cannot be distributed until port clearance obtained
+
+========================================================================
+SECTION 10: IMPORTANT GUIDELINES AND NOTES
+========================================================================
+
+10.1 CHECK PROHIBITION LISTS FIRST
+     NAFDAC will NOT process products on the Federal Government Import
+     Prohibition List or NAFDAC Ceiling List.
+
+10.2 ONE APPLICATION PER PRODUCT
+     Separate forms required for each product item.
+
+10.3 DOCUMENT AUTHENTICATION
+     Free Sale Certificates, COPP, and GMP certificates must be
+     authenticated by the Nigerian Embassy/High Commission in the
+     country of manufacture.
+
+     Where no Nigerian Embassy exists:
+     - Any Commonwealth country embassy can authenticate
+     - Any ECOWAS country embassy can authenticate
+
+10.4 RELIANCE PROCEDURE
+     If your product is already approved by a WHO-Stringent Regulatory
+     Authority (SRA) for more than 6 months, an abridged assessment
+     may apply. This can significantly reduce processing time.
+
+10.5 PHARMACEUTICALS FROM INDIA/CHINA
+     Clean Report of Inspection and Analysis (CRIA) is mandatory
+     at port clearance for pharmaceutical products manufactured in
+     India or China.
+
+10.6 ADVERTISING PERMIT
+     A separate advertising permit is required before any NAFDAC-
+     regulated product can be advertised in Nigeria. Registration
+     alone does not grant advertising rights.
+
+10.7 POST-MARKETING SURVEILLANCE
+     All registered products are subject to ongoing pharmacovigilance
+     and post-market surveillance. Adverse reactions must be reported.
+
+========================================================================
+SECTION 11: KEY URLS AND RESOURCES
+========================================================================
+
+NAFDAC Official Website: https://nafdac.gov.ng
+NAPAMS Registration Portal: https://registration.nafdac.gov.ng
+Registered Products Database (Greenbook): http://greenbook.nafdac.gov.ng
+PIDCARMS (Port Clearance): https://ports.nafdac.gov.ng
+National Single Window: https://nsw.gov.ng
+NAFDAC Guidelines: https://nafdac.gov.ng/regulatory-resources/guidelines/
+NAFDAC Tariff: https://nafdac.gov.ng/regulatory-resources/nafdac-tariff/
+Product Registration Service: https://nafdac.gov.ng/our-services/product-registrationevaluation/
+
+Drug Registration Guidelines (PDF):
+https://nafdac.gov.ng/wp-content/uploads/Files/Resources/Guidelines/DR&R_2025/Guidelines-for-Registration-of-Imported-Drug-Products-in-Nigeria-Human-and-Veterinary-Drugs.pdf
+
+Food Registration Guidelines (PDF):
+https://nafdac.gov.ng/wp-content/uploads/Files/Resources/Guidelines/FOOD_GUIDELINES/Guidelines-for-Registration-of-Imported-Food-Products-in-Nigeria.pdf
+
+Cosmetics Registration Guidelines (PDF):
+https://www.nafdac.gov.ng/wp-content/uploads/Files/Resources/Guidelines/DR_And_R_Guidelines/Guidelines-for-Registration-of-Imported-Cosmetics-in-Nigeria.pdf
+
+Medical Devices Guidelines (PDF):
+https://www.nafdac.gov.ng/wp-content/uploads/Files/Resources/Guidelines/VBM_R&R/Guidelines-For-Registration-Of-Medical-Devices-In-Nigeria.pdf
+
+NAFDAC Tariff Document (PDF):
+https://www.nafdac.gov.ng/wp-content/uploads/Publications/NAFDAC-2019-Tariff_Final_Combined.pdf
+
+Port Clearance Guidelines (PDF):
+https://www.nafdac.gov.ng/wp-content/uploads/Files/Resources/Guidelines/PORTINSPECTION_GUIDELINES/2022_To_2027/Guidelines-for-Clearing-Imported-Finished-Pharmaceutical-Human-And-Veterinary-Products-at-Ports-of-Entry-in-Nigeria.pdf

@@ -1,0 +1,352 @@
+CENTRAL BANK OF NIGERIA (CBN) - TRADE FINANCE REGULATIONS
+Source: Central Bank of Nigeria (cbn.gov.ng)
+Reference: CBN Foreign Exchange Manual (Fourth Edition, June 2026)
+Reference: CBN Trade and Exchange Department Circulars
+Effective: June 1, 2026
+
+========================================================================
+CBN TRADE FINANCE - COMPREHENSIVE REGULATIONS GUIDE
+========================================================================
+
+========================================================================
+SECTION 1: FORM M - IMPORT DECLARATION
+========================================================================
+
+1.1 WHAT IS FORM M?
+
+Form M is a mandatory electronic import declaration document required
+by the Central Bank of Nigeria (CBN) and the Federal Ministry of
+Finance for ALL commercial imports into Nigeria exceeding USD 1,000.
+Without a valid Form M, goods CANNOT clear Nigerian customs. There
+are no exceptions.
+
+Form M must be registered with an Authorized Dealer Bank (ADB) BEFORE
+placing any import order. Processing is done through the CBN Trade
+Portal integrated with the B'Odogwu Customs portal.
+
+1.2 REQUIREMENTS TO OPEN FORM M
+
+a) Tax Identification Number (TIN)
+   - Must be registered and validated with Nigeria Customs Service
+   - Obtained through FIRS (Federal Inland Revenue Service)
+   - Required for all trade documentation
+
+b) Proforma Invoice (PFI)
+   - Must show: complete description of goods, HS Code, unit price,
+     total cost, country of origin, delivery terms
+   - Valid for 3 months from date of issuance
+   - Must be issued by the foreign supplier/exporter
+
+c) Insurance Certificate
+   - Must be issued by a Nigerian-registered insurance company
+   - Must cover 110% of the Proforma Invoice value
+   - Marine/institute cargo clauses (A) for sea freight
+
+d) Regulatory Permit
+   - SONCAP Product Certificate (PC) for applicable products
+   - NAFDAC registration/permit for regulated products (drugs, food,
+     cosmetics, chemicals, medical devices)
+   - Other sector-specific permits as required
+
+e) Completed e-Form M Data Form
+   - Processed through the B'Odogwu portal
+   - Bank validates all supporting documents
+
+1.3 FORM M VALIDITY PERIODS
+
+Goods Category          Initial Validity    Bank Extension
+General Merchandise     180 days            Up to 180 days
+Plant & Machinery       365 days            Up to 365 days
+Special Commodities     180 days            Case-by-case basis
+
+Further extensions beyond the bank's authority require CBN approval.
+Applications for extension must be made before the current validity
+expires.
+
+1.4 FORM M PREFIX CODES
+
+BA - Valid for FX
+    Importer intends to purchase foreign exchange through official
+    CBN channels (NFEM window). Subject to FX availability.
+
+CB - Not Valid for FX
+    Importer using own funds, offshore accounts, or other non-CBN
+    FX sources. Still requires Form M documentation but does not
+    compete for CBN FX allocation.
+
+MF - Another variant for specific transaction types
+
+1.5 FORM M PROCESSING STEPS
+
+Step 1: Importer approaches Authorized Dealer Bank with all documents
+Step 2: Bank validates documents and enters data on B'Odogwu portal
+Step 3: Form M is assigned a unique reference number
+Step 4: Regulatory permits (SONCAP, NAFDAC) are verified
+Step 5: Form M is approved and becomes active
+Step 6: Importer can proceed with order placement and shipping
+
+1.6 FORM M FEES
+
+- Form M processing: Varies by bank (typically 0.5-1% of value)
+- Commission charges: As agreed with the bank
+- No fixed CBN fee for Form M itself
+
+1.7 COMMON FORM M REJECTED REASONS
+
+- Expired Proforma Invoice (PFI older than 3 months)
+- Missing or invalid SONCAP/NAFDAC permits
+- HS code mismatch between PFI and permit
+- Insurance certificate not from Nigerian insurer
+- TIN not validated with Customs
+- Incomplete product description
+
+========================================================================
+SECTION 2: FORM NXP - EXPORT DECLARATION
+========================================================================
+
+2.1 WHAT IS FORM NXP?
+
+The Nigerian Export Proceeds (NXP) form is a mandatory document for
+ALL commercial export transactions from Nigeria. It links the export
+shipment to expected foreign currency inflow. Without a valid NXP
+form, cargo CANNOT legally leave Nigeria.
+
+2.2 REQUIREMENTS TO PROCESS FORM NXP
+
+a) Domiciliary Account
+   - Must be with a CBN-licensed Authorized Dealer Bank
+   - Account denominated in USD, GBP, EUR, or other approved currency
+
+b) NEPC Registration
+   - Nigerian Export Promotion Council registration certificate
+   - Required for all exporters
+
+c) CAC Registration
+   - Corporate Affairs Commission certificate of incorporation
+   - Must be current and valid
+
+d) Proforma Invoice
+   - From the foreign buyer/importer
+   - Showing product description, quantity, unit price, total value,
+     delivery terms, payment terms
+
+e) Product-Specific Certificates
+   - Phytosanitary certificate (for agricultural products)
+   - SON conformity certificate (SONCAP)
+   - NAFDAC registration (for regulated products)
+   - Certificate of Origin (general or AfCFTA)
+
+2.3 FORM NXP FEES AND PROCESSING
+
+2026 Reform: Form NXP processing is now FREE of charge.
+Processing fees were removed under the Fourth Edition FX Manual
+effective June 1, 2026.
+
+2.4 EXPORT PROCEEDS REPATRIATION
+
+- Export proceeds must be repatriated within 90 DAYS of shipment
+  for non-oil exports
+- Failure triggers: NXP flagging, account restrictions, penalties
+- 1% penalty for non-compliance with repatriation deadline
+- Oil and gas exports have separate repatriation frameworks
+
+2.5 FORM NXP PROCESSING STEPS
+
+Step 1: Exporter approaches bank with all documents
+Step 2: Bank validates and enters data on B'Odogwu portal
+Step 3: NXP is assigned a reference number
+Step 4: Customs verification and pre-export inspection
+Step 5: NXP is approved
+Step 6: Shipment can proceed
+Step 7: Proceeds must be received and confirmed within 90 days
+
+========================================================================
+SECTION 3: CBN FOREIGN EXCHANGE FRAMEWORK 2026
+========================================================================
+
+3.1 KEY CHANGES IN FOURTH EDITION FX MANUAL (Effective June 1, 2026)
+
+Area                          2018 Manual     2026 Manual
+Advance Import Payments       15% of FOB      30% of FOB
+PTA/BTA Disbursement          Cash-heavy       75% Electronic
+Tuition Remittances           Lower limits     Up to USD 25,000/semester
+Domiciliary Acct Remittances  Form A required  Form A removed
+Form NXP Processing           Fees applicable  Free of charge
+Documentation Violations      Lower fines      N100m + N10m/transaction
+Export Proceeds Penalties     Existing terms   1% penalty for delay
+Cash Declaration Threshold    USD 10,000       USD 10,000 (retained)
+Outbound Travel Cash         Not specified    USD 50,000 subject to decl.
+
+3.2 NFEM (NIGERIAN FOREIGN EXCHANGE MARKET)
+
+- All corporate FX transactions must route through the official NFEM
+  window
+- Parallel market rates are ILLEGAL for corporate accounting/tax
+- BDCs (Bureau de Change) can participate in NFEM under new rules
+  (effective February 2026)
+- FX rates are determined by market forces within NFEM framework
+
+3.3 eCCI (ELECTRONIC CERTIFICATE OF CAPITAL IMPORTATION)
+
+- Must be processed within 24-48 hours of capital entering Nigeria
+- Required for all foreign capital inflows
+- Needed for: dividend repatriation, capital repatriation, FX access
+- Processed through the CBN portal
+
+3.4 DOMICILIARY ACCOUNT OPERATIONS
+
+- Nigerian residents can maintain domiciliary accounts in USD, GBP, EUR
+- Foreign currency deposits limited to USD 10,000 per transaction
+  (cash)
+- Hotels can receive max USD 10,000 per guest stay in foreign currency
+- Domestic transactions between Nigerian entities must be denominated
+  in NAIRA
+  Exceptions: Oil and Gas, Maritime, Aviation, Free Trade Zones
+
+3.5 CORPORATE FX ACCESS
+
+- All FX requests must go through NFEM
+- Eligible categories: manufacturing inputs, raw materials, machinery,
+  essential commodities
+- Priority allocation: agricultural inputs, pharmaceuticals, energy
+- Documentation requirements: Form M (for imports), Form NXP (for
+  exports), eCCI (for capital)
+
+========================================================================
+SECTION 4: CBN TRADE AND EXCHANGE CIRCULARS (2025-2026)
+========================================================================
+
+4.1 RECENT KEY CIRCULARS
+
+Ref: TED/FEM/FPC/PUB/001/003 (March 25, 2026)
+Subject: Removal of Cash Pooling for IOCs
+Impact: 100% export proceeds repatriation now allowed for IOCs
+
+Ref: TED/FEM/FPC/PUB/001/002 (March 24, 2026)
+Subject: Measures to Deepen Diaspora Remittances
+Impact: Enhanced compliance requirements for remittance operators
+
+Ref: TED/FEM/PUB/FPC/001/002 (February 10, 2026)
+Subject: BDC Participation in NFEM
+Impact: Licensed BDCs can now participate in the official FX market
+
+Ref: TED/FEM/PUB/001/001 (January 26, 2026)
+Subject: Temporary Dispensation - NAFDAC Licences for Form M
+Impact: Expired NAFDAC licences temporarily accepted for Form M
+processing (valid through February 28, 2026) due to B'Odogwu
+platform transition
+
+Ref: TED/FEM/PUB/FPC/001/006 (April 28, 2025)
+Subject: Review of Documentation for PAPSS Transactions
+Impact: Simplified documentation for Pan-African Payment and
+Settlement System
+
+Ref: TED/FEM/PUB/FPC/001/004 (February 5, 2025)
+Subject: FX Sales to BDCs for Retail Market
+Impact: ADBs can sell FX directly to licensed BDCs
+
+Ref: TED/FEM/FPC/GEN/001/001 (January 8, 2025)
+Subject: Suspension of Extension of Export Proceeds
+Impact: Tighter enforcement of 90-day repatriation deadline
+
+4.2 CBN REFORMS PAGE
+
+All recent reforms and circulars are available at:
+https://www.cbn.gov.ng/AboutCBN/Reforms.html
+
+Trade and Exchange circulars specifically:
+https://www.cbn.gov.ng/Documents/TedCirculars.html
+
+Master circulars:
+https://www.cbn.gov.ng/Documents/circulars.html
+
+========================================================================
+SECTION 5: IMPORT DOCUMENTATION CHECKLIST
+========================================================================
+
+FOR A STANDARD IMPORT INTO NIGERIA, THE FOLLOWING ARE REQUIRED:
+
+A. PRE-SHIPMENT:
+   1. Valid TIN (Tax Identification Number)
+   2. Proforma Invoice from supplier
+   3. SONCAP Product Certificate (for applicable products)
+   4. NAFDAC registration/permit (for regulated products)
+   5. Insurance Certificate (110% of CIF, Nigerian insurer)
+   6. Form M (registered through bank via B'Odogwu)
+   7. Bill of Lading or Airway Bill
+
+B. ARRIVAL AT PORT:
+   8. PAAR (Pre-Arrival Assessment Report) from NCS
+   9. SONCAP Certificate (SC)
+   10. NAFDAC Port Clearance (for regulated products)
+   11. Single Goods Declaration (SGD) through NICIS II
+   12. Customs duty payment
+   13. Terminal delivery order
+
+C. POST-CLEARANCE:
+   14. NAFDAC post-arrival inspection (48-hour notice required)
+   15. SON post-clearance inspection (if applicable)
+   16. Goods can be released after all clearances
+
+========================================================================
+SECTION 6: PENALTIES AND ENFORCEMENT
+========================================================================
+
+6.1 DOCUMENTATION VIOLATIONS
+    - Penalty: N100 million plus N10 million per affected transaction
+    - Applies to: false documentation, missing Form M, invalid permits
+
+6.2 EXPORT PROCEEDS NON-COMPLIANCE
+    - 1% penalty on export value for late repatriation
+    - Account restrictions for repeat offenders
+    - Potential loss of export privileges
+
+6.3 FORM M VIOLATIONS
+    - Goods may be seized and forfeited
+    - Importer may face criminal prosecution
+    - Bank may lose authorization for the transaction
+
+6.4 FX VIOLATIONS
+    - Parallel market FX transactions for corporate use: illegal
+    - Penalties as specified in the FX Manual
+    - Potential blacklisting from FX window
+
+========================================================================
+SECTION 7: KEY CONTACTS AND RESOURCES
+========================================================================
+
+CBN HEADQUARTERS:
+    Central Bank of Nigeria
+    Central Business District, Garki, Abuja
+    Website: https://www.cbn.gov.ng
+
+TRADE AND EXCHANGE DEPARTMENT:
+    Handles all trade finance and FX matters
+    Circulars: https://www.cbn.gov.ng/Documents/TedCirculars.html
+
+B'ODOGWU TRADE PORTAL:
+    Primary platform for all trade documentation
+    URL: https://bodogwu.customs.gov.ng
+
+NICIS II (NIGERIA INTEGRATED CUSTOMS INFORMATION SYSTEM):
+    All customs declarations and processing
+
+NIGERIAN TRADE PORTAL:
+    Comprehensive trade information
+    URL: https://trade.gov.ng
+
+PAN-AFRICAN PAYMENT AND SETTLEMENT SYSTEM (PAPSS):
+    Cross-border payment system for intra-African trade
+
+========================================================================
+REFERENCES
+========================================================================
+
+- CBN Foreign Exchange Manual, Fourth Edition (June 2026)
+- CBN Monetary, Credit, Foreign Trade and Exchange Policy Guidelines
+- CBN Trade and Exchange Department Circulars (2025-2026)
+- ECOWAS Common External Tariff 2022-2026
+- Pavestones Legal: Key Regulatory Update - CBN FX Manual 2026
+- Mondaq: CBN FX Manual 2026 Analysis
+- Olaniwun Ajayi LP: Nigeria's FX Framework Reformed
+- Juicyway: CBN FX Manual Changes 2026

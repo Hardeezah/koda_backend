@@ -1,80 +1,61 @@
-# app/domain/models/__init__.py
-from pydantic import BaseModel
-from typing import Optional, List
+from pydantic import BaseModel, EmailStr, model_validator
+from typing import Optional, List, Any
 from enum import Enum
 from datetime import datetime
+from app.domain.models.compliance import TradeStatus, ComplianceRisk, ComplianceReport, AfCFTACheckRequest, AfCFTACheckResponse
+from app.domain.models.vision import ProductAttributes, HSCodeCandidate, HSCodeResult, VisualAnalysisResult
+from app.domain.models.rag import RetrievedChunk, Citation, ComplianceItem, Risk, CitedComplianceVerdict
 
-
-# ====================== Enums ======================
-class TradeStatus(str, Enum):
-    COMPLIANT = "compliant"
-    NON_COMPLIANT = "non_compliant"
-    UNDER_REVIEW = "under_review"
-
-
-# ====================== Compliance Models ======================
-class ComplianceRisk(BaseModel):
-    level: str
-    reason: str
-    action_required: Optional[str] = None
-
-
-class ComplianceReport(BaseModel):
-    status: TradeStatus
-    summary: str
-    suggested_hs_code: Optional[str] = None
-    risks: List[ComplianceRisk] = []
-    confidence_score: float = 0.0
-
-
-class AfCFTACheckRequest(BaseModel):
-    product_name: str
-    hs_code: str
-    destination_country: str
-
-
-class AfCFTACheckResponse(BaseModel):
-    eligible: bool
-    tariff_saving_percent: float
-    roo_eligible: bool
-    explanation: str
-    suggested_hs_code: Optional[str] = None
-
-
-# ====================== Profile Model ======================
 class Profile(BaseModel):
     id: str
+    email: Optional[EmailStr] = None
+    full_name: Optional[str] = None
     business_name: Optional[str] = None
     business_type: Optional[str] = None
     trade_type: Optional[str] = None
     primary_category: Optional[str] = None
+    sub_categories: Optional[List[str]] = None
+    target_countries: Optional[List[str]] = None
     cac_number: Optional[str] = None
-    email: Optional[str] = None
+    tin: Optional[str] = None
     phone: Optional[str] = None
+    onboarding_completed: bool = False
     created_at: Optional[datetime] = None
     updated_at: Optional[datetime] = None
 
-
-# ====================== New Models ======================
 class TradeEntry(BaseModel):
     id: Optional[str] = None
     profile_id: str
     product_name: str
+    quantity: float
+    unit: str = "kg"
+    value_usd: float
     hs_code: Optional[str] = None
-    status: TradeStatus
-    quantity: Optional[float] = 0
-    value_usd: Optional[float] = 0
-    unit: Optional[str] = "kg"
+    status: TradeStatus = TradeStatus.DRAFT
+    compliance_report: Optional[ComplianceReport] = None
     created_at: Optional[datetime] = None
 
-
 class ProductMetadata(BaseModel):
+    id: str
+    name: str
     hs_code: str
-    product_name: str
-    category: Optional[str] = None
+    category: str
+    common_unit: str = "kg"
     description: Optional[str] = None
+    product_name: Optional[str] = None
     risks: List[str] = []
 
+    @model_validator(mode="before")
+    @classmethod
+    def sync_names(cls, data: Any) -> Any:
+        if isinstance(data, dict):
+            name = data.get("name")
+            prod_name = data.get("product_name")
+            if name and not prod_name:
+                data["product_name"] = name
+            elif prod_name and not name:
+                data["name"] = prod_name
+        return data
 
 __all__ = [
     "Profile",
@@ -85,4 +66,13 @@ __all__ = [
     "ComplianceRisk",
     "AfCFTACheckRequest",
     "AfCFTACheckResponse",
+    "ProductAttributes",
+    "HSCodeCandidate",
+    "HSCodeResult",
+    "VisualAnalysisResult",
+    "RetrievedChunk",
+    "Citation",
+    "ComplianceItem",
+    "Risk",
+    "CitedComplianceVerdict",
 ]

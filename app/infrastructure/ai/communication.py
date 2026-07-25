@@ -1,8 +1,8 @@
 import os
-from groq import Groq
+import json
+from groq import AsyncGroq
 from pydantic import BaseModel
 from app.domain.models import TradeEntry, Profile
-import json
 
 class DraftEmail(BaseModel):
     subject: str
@@ -10,7 +10,7 @@ class DraftEmail(BaseModel):
 
 class CommunicationService:
     def __init__(self):
-        self.client = Groq(api_key=os.environ.get("GROQ_API_KEY", "placeholder"))
+        self.client = AsyncGroq(api_key=os.environ.get("GROQ_API_KEY"))
         self.model = "llama-3.3-70b-versatile"
 
     async def draft_broker_email(self, entry: TradeEntry, profile: Profile) -> DraftEmail:
@@ -33,7 +33,7 @@ class CommunicationService:
         """
 
         try:
-            chat_completion = self.client.chat.completions.create(
+            chat_completion = await self.client.chat.completions.create(
                 messages=[
                     {
                         "role": "system",

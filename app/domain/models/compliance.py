@@ -4,9 +4,11 @@ from enum import Enum
 
 
 class TradeStatus(str, Enum):
+    DRAFT = "draft"
     COMPLIANT = "compliant"
     NON_COMPLIANT = "non_compliant"
     UNDER_REVIEW = "under_review"
+    SUBMITTED = "submitted"
 
 
 class ComplianceRisk(BaseModel):
@@ -28,6 +30,7 @@ class AfCFTACheckRequest(BaseModel):
     product_name: str
     hs_code: str
     destination_country: str
+    user_id: Optional[str] = None
 
 
 class AfCFTACheckResponse(BaseModel):

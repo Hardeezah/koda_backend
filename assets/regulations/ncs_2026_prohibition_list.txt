@@ -1,0 +1,356 @@
+NIGERIA CUSTOMS SERVICE - IMPORT PROHIBITION LIST 2026
+Source: Nigeria Customs Service (customs.gov.ng)
+Reference: Schedule 4, Common External Tariff (CET) 2022-2026
+Revised: April 1, 2026 (Fiscal Policy Measures 2026)
+Effective: Full enforcement from July 1, 2026
+90-day grace period for pre-existing Form M commitments expired June 2026.
+
+========================================================================
+PART A: GOODS PROHIBITED FROM IMPORTATION INTO NIGERIA
+(Applicable to imports from non-ECOWAS countries unless otherwise stated)
+========================================================================
+
+SECTION 1: FOOD AND AGRICULTURAL PRODUCTS
+-----------------------------------------
+
+1.1 Live or Dead Birds, Including Frozen Poultry
+    HS Codes: 0105.1100 - 0207.2600
+    Covers: Live birds, dressed poultry, frozen chicken, turkey, duck
+    Exception: Hatching eggs (0105.9900) are permitted
+    Agency: NAFDAC registration required if permitted
+
+1.2 Pork and Beef (fresh, chilled, or frozen)
+    HS Codes: 0201.1000 - 0210.2000
+    Covers: All forms of pork and beef including offal
+    Exception: Processed pork/beef products may be permitted with NAFDAC approval
+
+1.3 Birds' Eggs (excluding hatching eggs)
+    HS Code: 0407.0000
+    Covers: All poultry eggs for human consumption
+    Exception: Hatching eggs for poultry farming
+
+1.4 Refined Vegetable Oils and Fats
+    HS Codes: 1507.1000 - 1516.2000
+    Covers: Refined palm oil, soybean oil, groundnut oil, sunflower oil (retail packs)
+    Exception: Crude vegetable oils (not refined) are NOT banned
+    Exception: Linseed oil, castor oil, olive oil are permitted
+    Note: Bulk crude vegetable oils for industrial use may be permitted
+
+1.5 Cane or Beet Sugar (retail packs with flavouring or colouring)
+    HS Codes: 1701.91 - 1701.99
+    Covers: Flavoured or coloured sugar products in retail packaging
+    Exception: Industrial sugar in bulk
+
+1.6 Cocoa Butter, Powder, and Cakes
+    HS Codes: 1802.00 - 1806.20
+    Covers: Cocoa butter, cocoa powder, cocoa cakes, chocolate products
+    Note: Cocoa beans (1801.00) are NOT banned
+
+1.7 Spaghetti and Noodles
+    HS Codes: 1902.1100 - 1902.30.0000
+    Covers: All pasta products including spaghetti, macaroni, noodles
+    Note: Local production capacity cited as reason for ban
+
+1.8 Tomato Paste and Concentrate (retail packs)
+    HS Codes: 2002.100000 - 2002.909000
+    Covers: Tomato paste, puree, concentrate in retail packaging
+    Exception: Bulk tomato concentrate for industrial processing
+
+1.9 Fruit Juice (retail packs)
+    HS Codes: 2009.11 - 2009.90
+    Covers: All fruit juices and vegetable juices in retail packaging
+    Exception: Concentrates for industrial use
+
+SECTION 2: BEVERAGES
+---------------------
+
+2.1 Waters, Mineral Waters, Aerated Waters, Non-Alcoholic Beverages
+    HS Codes: 2201 - 2202
+    Covers: Bottled water, soft drinks, fruit drinks, energy drinks
+    Exception: Energy drinks and health drinks with specific NAFDAC certification
+
+2.2 Beer and Stout (bottled or canned)
+    HS Codes: 2203.0010 - 2203.0090
+    Covers: All beer and stout in bottles or cans
+    Exception: Bulk beer for industrial processing
+
+SECTION 3: PHARMACEUTICALS
+----------------------------
+Banned specific pharmaceutical products include:
+
+3.1 Paracetamol Tablets and Syrups
+3.2 Cotrimoxazole Tablets and Syrups
+3.3 Metronidazole Tablets and Syrups
+3.4 Chloroquine Tablets and Syrups
+3.5 Haematinic Formulations, Ferrous Sulphate/Gluconate, Folic Acid, Vitamin B Complex
+3.6 Multivitamin Tablets, Capsules, and Syrups (except special formulations)
+3.7 Aspirin Tablets (except modified-release or soluble aspirin)
+3.8 Magnesium Trisilicate Tablets and Suspensions
+3.9 Piperazine and Levamisole Tablets and Syrups
+3.10 Clotrimazole Cream
+3.11 Penicillin and Gentamycin Ointments
+3.12 Pyrantel Pamoate Tablets and Syrups
+3.13 Intravenous Fluids (Dextrose, Normal Saline, Ringer's Lactate, etc.)
+3.14 Waste Pharmaceuticals
+    HS Code: 3006.9200
+
+Note: These bans apply because Nigeria has sufficient local manufacturing capacity for these products. Importation of active pharmaceutical ingredients (APIs) for local manufacturing is NOT banned.
+
+SECTION 4: INDUSTRIAL AND MANUFACTURING GOODS
+----------------------------------------------
+
+4.1 Bagged Cement
+    HS Code: 2523.2900.22
+    Covers: Portland cement and other hydraulic cements in bags
+    Exception: Bulk cement for industrial use
+
+4.2 NPK Fertilisers (containing Nitrogen, Phosphorus, and Potassium)
+    HS Codes: 3105.10 - 3105.90
+    Covers: Compound fertilisers containing N+P+K
+    Exception: Organic fertilisers
+
+4.3 Soaps and Detergents (retail packs)
+    HS Codes: 3401.11 - 3402.90
+    Covers: All soap and detergent products in retail packaging
+
+4.4 Mosquito Repellent Coils
+    HS Code: 3808.9110.91
+
+4.5 Flat-Rolled Steel Products (corrugated, clad, plated, or coated)
+    Width: 600mm or more
+
+4.6 Corrugated Paper, Cartons, and Boxes
+    HS Codes: 4808.1000, 4819.1000
+
+4.7 Toilet Paper, Cleaning Tissue, Facial Tissue
+    HS Codes: 4818.10 - 4818.90
+    Exception: Baby diapers
+
+4.8 Exercise Books
+    HS Code: 4820.2000
+
+4.9 Telephone Recharge Cards and Vouchers
+    HS Code: 4911.9990.91
+
+4.10 Hollow Glass Bottles (capacity > 150ml)
+    HS Codes: 7010.9021.29, 7010.9031.00
+
+SECTION 5: TEXTILES, FOOTWEAR, AND CONSUMER GOODS
+--------------------------------------------------
+
+5.1 Carpets and Textile Floor Coverings
+    HS Codes: 5701.10 - 5705.00
+
+5.2 Footwear (all types)
+    HS Codes: 6401.10 - 6405.90
+    Exception: Oil industry safety shoes, sports shoes, canvas footwear
+    Exception: CKD (Completely Knocked Down) blanks for local assembly
+
+5.3 Bags and Suitcases
+    HS Codes: 4202.11 - 4202.99
+    Exception: Bags for oil industry use
+
+5.4 Ballpoint Pens and Parts (including refills, excluding tips)
+    HS Code: 9608.10.0000
+
+SECTION 6: USED AND MECHANICAL GOODS
+--------------------------------------
+
+6.1 Used Compressors
+    HS Code: 8414.3000
+
+6.2 Used Air Conditioners
+    HS Codes: 8415.1000.11 - 8415.9000.99
+
+6.3 Used Refrigerators and Freezers
+    HS Codes: 8418.1000.11 - 8418.69.0000
+
+6.4 Used Motor Vehicles (older than 12 years from date of manufacture)
+    HS Codes: 8703.10 - 8703.90
+    Note: Vehicles older than 15 years are absolutely prohibited
+
+6.5 Rethreaded and Used Pneumatic Tyres
+    HS Code: 4012.2010.00
+    Exception: Truck tyres of size 11.00 x 20 and above
+
+========================================================================
+PART B: ABSOLUTELY PROHIBITED ITEMS (REGARDLESS OF ORIGIN)
+========================================================================
+
+These items are banned under ALL circumstances:
+
+B.1 Counterfeit currency and counterfeit coins
+B.2 Narcotic drugs and psychotropic substances (as defined by law)
+B.3 Firearms, ammunition, and weapons of war (except under government licence)
+B.4 Materials likely to incite violence, national disloyalty, or religious offense
+B.5 Used mattresses (second-hand mattresses)
+B.6 Piece goods, textiles, and wearing apparel bearing Quranic inscriptions
+B.7 Used motor vehicles older than 15 years from date of manufacture
+B.8 Air pistols, blank rifles, and similar devices
+B.9 Blank invoices
+B.10 Cowries and manillas (traditional currency items)
+B.11 Matches made with white phosphorous
+B.12 Indecent or obscene prints, paintings, books, cards, or pictures
+B.13 Exhausted tea or tea mixed with other substances
+B.14 Goods manufactured in countries subject to UN or AU trade sanctions
+B.15 Goods bearing false or misleading country of origin labels
+
+========================================================================
+PART C: COMMON EXTERNAL TARIFF (CET) DUTY RATES
+========================================================================
+
+Nigeria applies the ECOWAS CET 2022-2026 framework with 5 duty bands:
+
+Band 0: 0% duty
+    Applies to: Essential social goods, medicines, capital equipment, industrial machinery
+    Examples: Medical equipment, agricultural implements, books, educational materials
+
+Band 1: 5% duty
+    Applies to: Raw materials, primary inputs
+    Examples: Crude oil, unprocessed agricultural products, basic chemicals
+
+Band 2: 10% duty
+    Applies to: Intermediate and semi-processed goods
+    Examples: Processed food ingredients, basic manufactured components
+
+Band 3: 20% duty
+    Applies to: Finished consumer goods
+    Examples: Electronics, household items, processed foods
+
+Band 4: 35% duty
+    Applies to: Sensitive/protected sectors
+    Examples: Textiles, automobiles, certain finished goods
+
+ADDITIONAL CHARGES ON TOP OF BASE DUTY:
+- VAT: 7.5% (calculated on CIF + duty + levies)
+- CISS (Comprehensive Import Supervision Scheme): 1% of FOB value
+- ETLS Levy (ECOWAS Trade Liberalisation Scheme): 0.5% of FOB value
+- Surcharge: 7% of duty amount
+- NAC Levy (Nigeria Automobile Council): 15% on used vehicles, 20% on new vehicles
+- Green Tax (2026): 2% on vehicles with engine capacity 2,000cc and above
+
+Effective total duties often exceed 50% of CIF value on many product categories.
+
+========================================================================
+PART D: KEY COMPLIANCE REQUIREMENTS 2026
+========================================================================
+
+D.1 All import documentation must be filed electronically through NICIS II
+    (Nigeria Integrated Customs Information System). Physical submission
+    is no longer accepted.
+
+D.2 Form M is required for all commercial imports exceeding USD 1,000.
+    Must be registered with an Authorized Dealer Bank (ADB) before placing
+    import orders. Filed via CBN Trade Portal.
+
+D.3 PAAR (Pre-Arrival Assessment Report) is mandatory before goods arrive
+    at Nigerian ports. Generated through NCS based on Form M data.
+
+D.4 SONCAP Product Certificate is required for applicable product categories
+    before Form M can be opened.
+
+D.5 NAFDAC registration is required for all regulated products (drugs, food,
+    cosmetics, chemicals, medical devices, vaccines, narcotics).
+
+D.6 48-hour advance notice to NAFDAC is required before product arrival at port.
+
+D.7 Penalties for importing prohibited goods:
+    - Permanent seizure of goods
+    - 100-300% fines on evaded duty
+    - Up to 5 years post-clearance audit liability
+    - Criminal prosecution possible
+
+D.8 The 2026 prohibition revisions apply specifically to non-ECOWAS countries.
+    ECOWAS member state goods may still enter under ETLS rules subject to
+    Rules of Origin verification.
+
+========================================================================
+PART E: CBN FORM M REQUIREMENTS
+========================================================================
+
+E.1 Form M is a mandatory electronic import declaration document required
+    by the Central Bank of Nigeria (CBN) and Federal Ministry of Finance
+    for all commercial imports exceeding USD 1,000.
+
+E.2 Requirements to open Form M:
+    a) Tax Identification Number (TIN) registered with Nigeria Customs
+    b) Proforma Invoice (PFI) showing: description of goods, HS code,
+       unit price, total cost (valid 3 months from issuance)
+    c) Insurance Certificate from a Nigerian insurer covering 110% of
+       the Proforma Invoice value
+    d) Regulatory Permit: SONCAP Product Certificate or NAFDAC permit
+       as applicable to the product category
+    e) Completed e-Form M data form
+
+E.3 Form M Validity Periods:
+    - General Merchandise: 180 days initial, extendable up to 180
+      additional days with bank approval, further extension requires
+      CBN approval
+    - Plant and Machinery: 365 days initial, extendable up to 365
+      additional days with bank approval
+
+E.4 Form M Prefix Codes:
+    - BA: Valid for FX (foreign exchange purchased through official CBN channels)
+    - CB: Not Valid for FX (importer using own funds or offshore accounts)
+
+E.5 Form M must be processed through a CBN-licensed Authorized Dealer Bank.
+    The bank validates all supporting documents and submits to CBN.
+
+E.6 All Form M processing is now done through the B'Odogwu trade portal
+    (bodogwu.customs.gov.ng) integrated with NICIS II.
+
+========================================================================
+PART CBN FX: CBN FOREIGN EXCHANGE MANUAL 2026 (FOURTH EDITION)
+========================================================================
+
+Effective June 1, 2026. First major overhaul since 2018.
+
+Key provisions relevant to trade:
+
+FX.1 All corporate FX transactions must route through the official NFEM
+    (Nigerian Foreign Exchange Market) window.
+
+FX.2 Parallel market rates are illegal for corporate accounting and tax
+    reporting purposes.
+
+FX.3 Advance Import Payments: Now limited to 30% of FOB value (increased
+    from 15% under the 2018 manual).
+
+FX.4 PTA/BTA Disbursement: 75% electronic, 25% cash framework.
+
+FX.5 Tuition Fee Remittances: Up to USD 25,000 per semester.
+
+FX.6 Form NXP (Export Proceeds): Processing fees removed (free of charge).
+
+FX.7 Documentation Violations: Penalty of N100 million plus N10 million
+    per affected transaction.
+
+FX.8 Export Proceeds Repatriation: 1% penalty for non-compliance with
+    90-day repatriation deadline.
+
+FX.9 eCCI (Electronic Certificate of Capital Importation): Must be
+    processed within 24-48 hours of capital entering Nigeria.
+
+FX.10 Domestic transactions between Nigerian entities must be denominated
+     in Naira. Exceptions: Oil and Gas, Maritime, Aviation, Free Trade Zones.
+
+========================================================================
+PART NXP: CBN FORM NXP - EXPORT DECLARATION
+========================================================================
+
+NXP.1 The Nigerian Export Proceeds (NXP) form is mandatory for all
+     commercial export transactions from Nigeria.
+
+NXP.2 Requirements:
+     a) Domiciliary account (USD/GBP/EUR) with a CBN-licensed Authorized
+        Dealer Bank
+     b) NEPC (Nigerian Export Promotion Council) registration
+     c) CAC (Corporate Affairs Commission) registration
+     d) Proforma Invoice
+     e) Product-specific certificates (phytosanitary, conformity, etc.)
+
+NXP.3 Export proceeds must be repatriated within 90 days of shipment for
+     non-oil exports. Failure triggers NXP flagging, account restrictions,
+     and penalties.
+
+NXP.4 Form NXP processing is now free of charge (2026 FX Manual reform).

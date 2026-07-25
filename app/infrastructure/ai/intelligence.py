@@ -1,16 +1,27 @@
 import os
 import json
-from groq import Groq
+import logging
+from datetime import datetime, timezone
+from groq import AsyncGroq
+from typing import Optional
+
+logger = logging.getLogger(__name__)
+
 
 class IntelligenceService:
     def __init__(self):
-        self.client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
-        self.model = "llama-3.3-70b-versatile"
-        self.vision_model = "meta-llama/llama-4-scout-17b-16e-instruct"
+        self.client = AsyncGroq(api_key=os.environ.get("GROQ_API_KEY"))
+        self.model = os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile")
+        self.vision_model = os.environ.get("GROQ_VISION_MODEL", "meta-llama/llama-4-scout-17b-16e-instruct")
+        self.temperature = float(os.environ.get("COMPLIANCE_TEMPERATURE", "0.2"))
 
-    def _build_prompt(self, product_name: str, hs_code: str, direction: str) -> str:
+    def _build_prompt(self, product_name: str, hs_code: str, direction: str, retrieved_context: Optional[str] = None) -> str:
+        context_block = ""
+        if retrieved_context:
+            context_block = f"\nRELEVANT REGULATORY DOCUMENTS:\n{retrieved_context}\n\nGround your answer in the above documents where applicable.\n"
+
         if direction == "export":
-            return f"""
+            return f"""{context_block}
 You are a Nigerian export trade compliance expert specializing in AfCFTA and Nigerian export regulations.
 
 Product: {product_name}
@@ -62,7 +73,7 @@ The compliance_items must include all relevant documents from this list that app
 Only include items that genuinely apply to this product. Explain each one in the context of this specific product.
 """
         else:
-            return f"""
+            return f"""{context_block}
 You are a Nigerian import trade compliance expert specializing in Nigerian Customs regulations, the 2026 Import Prohibition List, and trade documentation.
 
 Product: {product_name}
@@ -114,10 +125,52 @@ The compliance_items must include all relevant documents from this list that app
 Only include items that genuinely apply to this product. Be specific about this product, not generic.
 """
 
-    async def analyze_compliance(self, product_name: str, hs_code: str = None, direction: str = "import") -> dict:
-        prompt = self._build_prompt(product_name, hs_code, direction)
+    async def analyze_compliance(
+        self,
+        product_name: str,
+        hs_code: str = None,
+        direction: str = "import",
+        retrieved_context: Optional[str] = None,
+        supplementary_context: Optional[str] = None,
+    ) -> dict:
+        from app.infrastructure.rag.compliance_chain import compliance_chain
+
+        extra = supplementary_context or ""
+        if retrieved_context:
+            extra = f"{retrieved_context}\n{extra}".strip() if extra else retrieved_context
+
         try:
-            chat_completion = self.client.chat.completions.create(
+            verdict = await compliance_chain.run(
+                product_name=product_name,
+                hs_code=hs_code,
+                direction=direction,
+                supplementary_context=extra or None,
+            )
+            return verdict.model_dump()
+        except Exception as e:
+            logger.warning("RAG compliance chain failed for %s, falling back to LLM: %s", product_name, e)
+            return await self._analyze_compliance_llm_only(
+                product_name, hs_code, direction, retrieved_context, supplementary_context
+            )
+
+    async def _analyze_compliance_llm_only(
+        self,
+        product_name: str,
+        hs_code: str = None,
+        direction: str = "import",
+        retrieved_context: Optional[str] = None,
+        supplementary_context: Optional[str] = None,
+    ) -> dict:
+        context_parts = []
+        if retrieved_context:
+            context_parts.append(retrieved_context)
+        if supplementary_context:
+            context_parts.append(supplementary_context)
+        combined_context = "\n".join(context_parts) if context_parts else None
+
+        prompt = self._build_prompt(product_name, hs_code, direction, combined_context)
+        try:
+            chat_completion = await self.client.chat.completions.create(
                 messages=[
                     {
                         "role": "system",
@@ -127,66 +180,53 @@ Only include items that genuinely apply to this product. Be specific about this 
                 ],
                 model=self.model,
                 response_format={"type": "json_object"},
-                temperature=0.2,
+                temperature=self.temperature,
             )
             result = json.loads(chat_completion.choices[0].message.content)
             result["direction"] = direction
+            result["retrieval_used"] = False
+            result["citations"] = []
             return result
         except Exception as e:
-            print(f"[ERROR] analyze_compliance: {e}")
+            logger.error("LLM-only compliance analysis failed: %s", e)
             raise
 
     async def analyze_image(self, base64_image: str, direction: str = "import") -> dict:
+        from app.infrastructure.ai.vision_pipeline import vision_pipeline
+        from app.infrastructure.ai.hs_classifier import hs_classifier
+        from app.domain.models.vision import VisualAnalysisResult
+
         try:
-            if "," in base64_image:
-                base64_image = base64_image.split(",", 1)[1]
+            logger.info("Processing image - length: %d", len(base64_image))
 
-            print(f"[VISION] Processing image - length: {len(base64_image)}")
+            attributes = await vision_pipeline.identify_product(base64_image)
+            logger.info("Identified: %s (category: %s)", attributes.product_name, attributes.category)
 
-            # First identify the product
-            identification = self.client.chat.completions.create(
-                messages=[
-                    {
-                        "role": "user",
-                        "content": [
-                            {
-                                "type": "image_url",
-                                "image_url": {"url": f"data:image/jpeg;base64,{base64_image}"}
-                            },
-                            {
-                                "type": "text",
-                                "text": "Identify this product. Return JSON with: product_name (proper commercial name), category (e.g. food, textile, electronics), description (one sentence). JSON only."
-                            }
-                        ]
-                    }
-                ],
-                model=self.vision_model,
-                temperature=0.2,
-                max_tokens=300,
-                response_format={"type": "json_object"},
-            )
+            hs_result = await hs_classifier.classify(attributes)
+            logger.info("HS Code: %s (confidence: %s)", hs_result.assigned_code, hs_result.confidence)
 
-            identified = json.loads(identification.choices[0].message.content)
-            product_name = identified.get("product_name", "Unknown Product")
-
-            print(f"[VISION] Identified: {product_name}")
-
-            # Now run full compliance analysis with the identified name
-            result = await self.analyze_compliance(
-                product_name=product_name,
-                hs_code=None,
+            compliance = await self.analyze_compliance(
+                product_name=attributes.product_name,
+                hs_code=hs_result.assigned_code,
                 direction=direction,
             )
-            result["product_name"] = product_name
-            result["direction"] = direction
-            return result
 
-        except json.JSONDecodeError as e:
-            print(f"[ERROR] JSON decode failed: {e}")
-            raise Exception("AI returned invalid JSON")
+            visual_result = VisualAnalysisResult(
+                product_name=attributes.product_name,
+                attributes=attributes,
+                hs_code=hs_result,
+                direction=direction,
+            )
+
+            compliance["product_name"] = attributes.product_name
+            compliance["direction"] = direction
+            compliance["visual_analysis"] = visual_result.model_dump()
+
+            return compliance
+
         except Exception as e:
-            print(f"[CRITICAL ERROR] analyze_image: {e}")
-            raise Exception(f"Vision analysis failed: {str(e)}")
+            logger.exception("Vision analysis failed")
+            raise Exception(f"Vision analysis failed: {str(e)}") from e
 
     async def generate_document(
         self,
@@ -200,8 +240,34 @@ Only include items that genuinely apply to this product. Be specific about this 
         business_address: str = None,
         cac_number: str = None,
     ) -> dict:
-        prompt = f"""You are a Nigerian trade compliance officer generating official document drafts.
+        from app.infrastructure.rag.retriever import regulatory_retriever
+        from app.infrastructure.rag.reranker import rerank, format_context
 
+        reg_context = ""
+        try:
+            chunks = await regulatory_retriever.retrieve_for_compliance(
+                f"{document_code} {document_name} {product_name}",
+                direction,
+            )
+            ranked = rerank(
+                chunks,
+                [document_code, product_name, direction, "nigeria"],
+            )
+            reg_context = format_context(ranked, max_chars=4000)
+        except Exception as e:
+            logger.warning("Document RAG retrieval failed: %s", e)
+
+        context_block = ""
+        if reg_context and reg_context != "No regulatory documents retrieved.":
+            context_block = f"""
+    RELEVANT REGULATORY DOCUMENTS:
+    {reg_context}
+
+    Ground the document content in the above regulations where applicable.
+    """
+
+        prompt = f"""You are a Nigerian trade compliance officer generating official document drafts.
+    {context_block}
     Generate a complete draft of: {document_name} ({document_code})
 
     Details:
@@ -249,12 +315,12 @@ Only include items that genuinely apply to this product. Be specific about this 
     """
 
         try:
-            print(f"[DOC] Calling Groq for {document_code}...")
-            completion = self.client.chat.completions.create(
+            logger.info("Generating document: %s for %s", document_code, product_name)
+            completion = await self.client.chat.completions.create(
                 messages=[
                     {
                         "role": "system",
-                        "content": "You are a Nigerian trade document specialist. Return ONLY valid JSON. No markdown, no code blocks, no explanation. Start your response with { and end with }."
+                        "content": "You are a Nigerian trade document specialist. Return ONLY valid JSON. No markdown, no code blocks, no explanation. Start your response with {{ and end with }}."
                     },
                     {"role": "user", "content": prompt}
                 ],
@@ -264,15 +330,12 @@ Only include items that genuinely apply to this product. Be specific about this 
             )
 
             raw = completion.choices[0].message.content
-            print(f"[DOC] Raw response length: {len(raw)}")
-            print(f"[DOC] First 200 chars: {raw[:200]}")
+            logger.info("Document response length: %d", len(raw))
 
             result = json.loads(raw)
-            print(f"[DOC] Parsed keys: {list(result.keys())}")
 
-            # If model returned flat content instead of structured, convert it
             if "document_title" not in result or "sections" not in result:
-                print(f"[DOC] Model returned wrong shape, converting...")
+                logger.info("Model returned wrong shape, converting to structured format")
                 result = self._convert_flat_to_structured(
                     result, document_code, document_name, product_name
                 )
@@ -280,14 +343,11 @@ Only include items that genuinely apply to this product. Be specific about this 
             return result
 
         except json.JSONDecodeError as e:
-            print(f"[ERROR] JSON decode failed: {e}")
-            raise Exception("AI returned invalid JSON")
+            logger.error("JSON decode failed for document generation: %s", e)
+            raise ValueError("AI returned invalid JSON") from e
         except Exception as e:
-            print(f"[ERROR] generate_document: {e}")
-            import traceback
-            print(traceback.format_exc())
+            logger.exception("generate_document failed: %s", e)
             raise
-
 
     def _convert_flat_to_structured(
         self,
@@ -296,13 +356,10 @@ Only include items that genuinely apply to this product. Be specific about this 
         document_name: str,
         product_name: str,
     ) -> dict:
-        """Convert flat content string into structured document format."""
-        content = raw.get("content", "")
-        
-        # Split content into sections on numbered headings or double newlines
         import re
+
+        content = raw.get("content", "")
         chunks = re.split(r'\n(?=\d+\.\s|\n)', content.strip())
-        
         sections = []
         for chunk in chunks:
             chunk = chunk.strip()
@@ -310,7 +367,6 @@ Only include items that genuinely apply to this product. Be specific about this 
                 continue
             lines = chunk.split('\n')
             first_line = lines[0].strip()
-            # Use first line as title if it looks like a heading
             if re.match(r'^\d+\.', first_line) or first_line.endswith(':'):
                 title = re.sub(r'^\d+\.\s*', '', first_line).rstrip(':')
                 body = '\n'.join(lines[1:]).strip()
@@ -330,7 +386,7 @@ Only include items that genuinely apply to this product. Be specific about this 
             "NXP": ("Central Bank of Nigeria (CBN)", "CBN Headquarters, Central Business District, Abuja"),
             "NEPC": ("Nigerian Export Promotion Council", "NEPC Headquarters, Olusegun Obasanjo Way, Abuja"),
         }
-        
+
         agency, agency_address = agency_map.get(
             document_code,
             ("Relevant Government Agency", "Nigeria")
@@ -344,7 +400,7 @@ Only include items that genuinely apply to this product. Be specific about this 
             "sections": sections,
             "cover_letter": self._generate_cover_letter(document_name, agency, product_name),
             "submission_steps": [
-                f"Complete all [PLACEHOLDER] fields in this document with your business details.",
+                "Complete all [PLACEHOLDER] fields in this document with your business details.",
                 f"Gather all supporting documents listed in the checklist.",
                 f"Visit your bank's trade finance desk to submit Form M (for CBN documents) or go directly to {agency}.",
                 "Retain a stamped copy of your submission for your records.",
@@ -362,37 +418,38 @@ Only include items that genuinely apply to this product. Be specific about this 
         }
 
     def _generate_cover_letter(self, document_name: str, agency: str, product_name: str) -> str:
-        today = __import__('datetime').date.today().strftime("%d %B %Y")
+        today = datetime.now(timezone.utc).strftime("%d %B %Y")
         return f"""[YOUR BUSINESS NAME]
-    [YOUR BUSINESS ADDRESS]
-    [CITY, STATE]
-    [PHONE NUMBER]
-    [EMAIL ADDRESS]
+[YOUR BUSINESS ADDRESS]
+[CITY, STATE]
+[PHONE NUMBER]
+[EMAIL ADDRESS]
 
-    {today}
+{today}
 
-    The Director/Manager
-    {agency}
-    [AGENCY ADDRESS]
+The Director/Manager
+{agency}
+[AGENCY ADDRESS]
 
-    Dear Sir/Madam,
+Dear Sir/Madam,
 
-    RE: APPLICATION FOR {document_name.upper()} — {product_name.upper()}
+RE: APPLICATION FOR {document_name.upper()} — {product_name.upper()}
 
-    I write on behalf of [YOUR BUSINESS NAME] (CAC Reg. No: [CAC NUMBER]) to formally submit our application for the above-referenced document in relation to the importation/exportation of {product_name} (HS Code: [HS CODE]).
+I write on behalf of [YOUR BUSINESS NAME] (CAC Reg. No: [CAC NUMBER]) to formally submit our application for the above-referenced document in relation to the importation/exportation of {product_name} (HS Code: [HS CODE]).
 
-    Our company is duly registered under the laws of the Federal Republic of Nigeria and has been engaged in lawful trade activities. We hereby declare that all information provided in the attached documents is true, accurate, and complete to the best of our knowledge.
+Our company is duly registered under the laws of the Federal Republic of Nigeria and has been engaged in lawful trade activities. We hereby declare that all information provided in the attached documents is true, accurate, and complete to the best of our knowledge.
 
-    We kindly request the prompt processing of this application and remain available to provide any additional information or documentation that may be required.
+We kindly request the prompt processing of this application and remain available to provide any additional information or documentation that may be required.
 
-    Please find attached all required supporting documents for your review and processing.
+Please find attached all required supporting documents for your review and processing.
 
-    Yours faithfully,
+Yours faithfully,
 
-    _____________________________
-    [AUTHORISED SIGNATORY NAME]
-    [DESIGNATION]
-    [YOUR BUSINESS NAME]
-    [DATE]"""
+_____________________________
+[AUTHORISED SIGNATORY NAME]
+[DESIGNATION]
+[YOUR BUSINESS NAME]
+[DATE]"""
+
 
 intelligence_service = IntelligenceService()

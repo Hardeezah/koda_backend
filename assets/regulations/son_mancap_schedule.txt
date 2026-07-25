@@ -1,0 +1,397 @@
+SON CERTIFICATION REQUIREMENTS - MANCAP AND SONCAP
+Source: Standards Organisation of Nigeria (SON)
+Website: https://son.gov.ng
+Reference: SON Act No. 14 of 2015
+MANCAP Portal: https://mancap.son.gov.ng
+SONCAP Portal: https://soncap.son.gov.ng
+
+========================================================================
+STANDARDS ORGANISATION OF NIGERIA (SON)
+COMPLETE CERTIFICATION AND COMPLIANCE GUIDE
+========================================================================
+
+SON operates two mandatory certification programmes:
+
+1. SONCAP (SON Conformity Assessment Programme)
+   For IMPORTED products entering Nigeria
+
+2. MANCAP (Mandatory Conformity Assessment Programme)
+   For LOCALLY MANUFACTURED products in Nigeria
+
+Both are mandated under the SON Act No. 14 of 2015.
+
+========================================================================
+SECTION 1: MANCAP - MANDATORY CONFORMITY ASSESSMENT PROGRAMME
+========================================================================
+
+1.1 WHAT IS MANCAP?
+
+MANCAP is a product certification scheme for all locally manufactured
+products in Nigeria. It ensures conformity to relevant Nigerian
+Industrial Standards (NIS) before the product can be sold domestically
+or exported. Established in 2006 and strengthened under SON Act 14
+of 2015.
+
+Key Features:
+- Mandatory for all locally manufactured regulated products
+- SON inspectors visit the manufacturing facility in Nigeria
+- Certificate and MANCAP logo (with unique identification number)
+  issued upon compliance
+- Valid for 3 years subject to periodic surveillance
+- Minimum 2 quarterly inspections per 6-month period
+
+1.2 MANCAP CERTIFICATION PROCESS
+
+Step 1: APPLICATION
+    Submit to SON with:
+    - Product details and specifications
+    - Facility information
+    - Production processes description
+    - Quality management system documentation
+
+Step 2: IDENTIFY RELEVANT NIS
+    Match product to applicable Nigerian Industrial Standard(s)
+    SON maintains a database of all NIS standards
+
+Step 3: FACTORY INSPECTION
+    SON inspects:
+    - Manufacturing facility
+    - Quality control systems
+    - Good Manufacturing Practice (GMP) compliance
+    - Raw material sourcing and testing
+    - Production and testing equipment
+
+Step 4: PRODUCT TESTING
+    Samples tested in SON-accredited laboratories
+    On-the-spot testing may also be conducted
+    Products must meet all applicable NIS requirements
+
+Step 5: ISSUANCE
+    Upon compliance:
+    - MANCAP certificate issued
+    - MANCAP logo with unique identification number
+    - Product can carry MANCAP certification mark
+
+Step 6: SURVEILLANCE
+    Minimum 2 quarterly inspections per 6-month period
+    Products subject to ongoing quality monitoring
+    Non-compliance can result in certificate suspension/revocation
+
+Step 7: RENEWAL
+    Every 3 years
+    Full re-certification process required
+    Updated documentation and factory inspection
+
+1.3 MANCAP REQUIRED DOCUMENTS
+
+1. CAC Certificate of Incorporation
+2. On-the-spot test report (SON lab or IPAN accredited lab)
+3. Copy of MANCAP form purchase payment
+4. Copy of MANCAP certification payment
+5. Product technical data sheets
+6. Quality management system documentation
+7. Production process flow diagrams
+8. Raw material sourcing and testing records
+9. Product samples for testing
+
+1.4 MANCAP FEES
+
+Certification fees and inspection charges are published at SON
+State Offices nationwide. Specific amounts are not listed on the
+SON website but are available upon request at any SON office.
+
+MANCAP e-Portal: https://mancap.son.gov.ng/
+Register with FIRS-validated TIN.
+
+========================================================================
+SECTION 2: SONCAP - SON CONFORMITY ASSESSMENT PROGRAMME
+========================================================================
+
+2.1 WHAT IS SONCAP?
+
+SONCAP is the pre-shipment verification and certification of conformity
+to Nigerian Industrial Standards (NIS) for imported products. Operated
+through third-party Independent Accredited Firms (IAFs) at the
+exporting country.
+
+Two Mandatory Documents Required:
+1. Product Certificate (PC) - used to open CBN Form M
+2. SONCAP Certificate (SC) - used for Nigerian Customs clearance
+   and PAAR processing
+
+2.2 THREE ROUTES OF CERTIFICATION
+
+Route A: Unregistered/Unlicensed Exporter
+    Certificate: PC1
+    Validity: 6 months, single use
+    Use Case: Infrequent exporters to Nigeria
+    Requirements: Basic product testing
+
+Route B: Registered Exporter
+    Certificate: PC2
+    Validity: 12 months, multiple use
+    Use Case: Frequent exporters with Quality Management System
+    Requirements: QMS documentation, product testing, factory audit
+    Upgrade Path: After 4 compliant transactions under Route A
+
+Route C: Licensed Exporter
+    Certificate: PC3
+    Validity: 12 months, multiple use
+    Use Case: Established manufacturers with regular shipments
+    Requirements: Full QMS, product testing, 2 factory verifications
+    Upgrade Path: After 4 compliant transactions + 2 factory
+    verifications under Route B
+
+2.3 REQUIRED DOCUMENTS FOR SC APPLICATION
+
+1. SC Application Form (completed and stamped)
+2. Declaration of Conformity (signed and stamped by manufacturer/
+   exporter)
+3. Product Certificate (PC1, PC2, or PC3)
+4. Form M (from Nigerian importer's bank)
+5. Power of Attorney (in English)
+6. Commercial Invoice
+7. Packing List
+8. Bill of Lading
+
+2.4 SONCAP FEES
+
+Item                                        Fee
+Product Certificate PC1 (6 months)          USD 60
+Product Certificate PC2 (12 months)         USD 120
+Product Certificate PC3 (12 months)         USD 120
+SONCAP Certificate (SC) per shipment        USD 350
+Additional model per month validity         USD 10
+Additional new product on existing PC       USD 350
+Amendment of Certificate                    USD 100
+Non-Conformity Report (NCR)                 USD 350
+
+Note: Third-party IAFs (Cotecna, Bureau Veritas, SGS, etc.) may
+charge higher fees:
+- Cotecna: PC1=USD 500, PC2=USD 1,000, PC3=USD 2,000, SC=USD 350
+- Bureau Veritas, SGS: Similar pricing structures
+
+2.5 SONCAP DEFAULT PENALTY
+
+If goods leave the exporting country without SONCAP processing:
+    Penalty: 20% of CIF value OR N2,000,000, whichever is HIGHER
+
+2.6 SONCAP EXEMPTIONS
+
+The following are NOT subject to SONCAP:
+- Food products (regulated by NAFDAC)
+- Medicines (regulated by NAFDAC)
+- Medical equipment and machines (not general medical items)
+- Chemicals used as raw materials by bonafide manufacturers
+  (for food/medicines)
+- Military wares and equipment
+- Contraband goods
+- Used products (except automobiles)
+- Project-specific products
+- Products on the Import Prohibited list
+
+2.7 PROCESSING TIME
+
+Standard: 96 hours (4 working days) for PC and SC issuance when
+all documents are submitted
+
+Expedited: 24 hours with all qualifying documents
+
+2.8 PREREQUISITES
+
+FIRS Tax Identification Number (TIN) must be registered on the
+national trade portal (trade.gov.ng) before any SONCAP processing.
+
+========================================================================
+SECTION 3: PRODUCT CATEGORIES REQUIRING SON CERTIFICATION
+========================================================================
+
+GROUP I - TOYS
+    Electronic toys, video games, playground equipment
+    Baby trolleys and related products
+
+GROUP II - ELECTRICAL AND ELECTRONICS
+    Audio/video appliances (all types)
+    Washing machines (up to 12 kg capacity)
+    Refrigerators (up to 50 cu. ft)
+    Microwave ovens (up to 60 litres)
+    Electric irons, blenders, toasters, kettles
+    Air conditioners (up to 60,000 BTU/hr)
+    Fans (all types)
+    Sewing machines
+    Battery chargers
+    Electric wires, cables, extension cords, cord sets
+    Luminaires, fixtures, lampholders
+    Mobile phones, telephones, fax machines, intercoms
+    Plugs, socket outlets, adapters
+    Room heaters, space heaters
+    Water heaters
+    Clocks and watches (including battery-operated)
+
+GROUP III - AUTOMOTIVE
+    Vehicles, motorcycles, and parts
+    Automotive batteries
+
+GROUP IV - CHEMICAL PRODUCTS
+    Motor lubricating oils and petroleum products
+    Fertilizers (NPK, urea, organic)
+    Cosmetics and personal care products
+    Plastics and rubber products (pipes, tires, hoses)
+    Paints
+    Matches
+
+GROUP V - MECHANICAL MATERIALS AND GAS APPLIANCES
+    Cement (Portland, masonry)
+    Roofing sheets (aluminum, steel)
+    Steel bars and rods
+    Ceramic tiles and sanitary wares
+    Pipes and fittings
+    Kerosene stoves
+    Gas regulators, LPG equipment
+
+GROUP VI - PETROLEUM PRODUCTS
+    Petrol (PMS), Diesel (AGO), Kerosene (DPK)
+    LPG (including cylinders)
+    Lubricants
+
+GROUP VII - PAPER AND STATIONERY
+    All paper products and stationery items
+
+GROUP VIII - TEXTILES AND LEATHER PRODUCTS
+    Textiles, garments, footwear
+
+GROUP IX - CIVIL/BUILDING AND MINING SECTOR
+    All building materials
+
+GROUP X - MISCELLANEOUS
+    Safety equipment (helmets, belts, glasses)
+    Nails, hand tools, locks
+    Bicycle/auto spares
+    Shock absorbers, fan belts, brake pads
+    Spark plugs
+    Solar panels
+    Telephone equipment
+    Tyres
+    Sanitary pads
+    Hurricane lamps
+
+========================================================================
+SECTION 4: LIFE ENDANGERING PRODUCTS (LEP) - SPECIAL CATEGORY
+========================================================================
+
+These products require PC1 or PC3 only, with mandatory inspection:
+
+- Automobile glass
+- Batteries
+- Brake fluids and brake pads
+- Cement
+- Converters
+- Chargers
+- Electrical cables, fuses, parts, switches
+- Fertilizer
+- Gas regulators
+- Gypsum
+- Heaters
+- Safety helmets
+- Lightning arrestors
+- Lubricants
+- Matches
+- Paints
+- Razors
+- Safety belts and glasses
+- Sanitary pads
+- Solar panels
+- Stabilizers
+- Steel bars and roofing sheets
+- Telephones
+- Tyres
+
+Special Product Requirements:
+- Tobacco products: Must be registered by SON before PC/SC;
+  only PC1/PC3 applicable
+- Fertilizers: Must register at Nigerian ONSA for End User
+  Certificate (EUC)
+- Aluminum/steel coils: Only PC1 with mandatory inspection
+- Cable TV decoders: Only PC1 with mandatory inspection
+
+========================================================================
+SECTION 5: SONCAP IMPORT PROCESS FLOW
+========================================================================
+
+Complete import process for SON-regulated products:
+
+Step 1: Register TIN on trade.gov.ng
+    - Obtain FIRS-validated Tax Identification Number
+    - Register on the national trade portal
+
+Step 2: Obtain Product Certificate (PC1/PC2/PC3) via IAF
+    - Contact an Independent Accredited Firm (Cotecna, Bureau
+      Veritas, SGS, Intertek, etc.)
+    - Submit product details and documentation
+    - Factory audit and product testing conducted
+    - PC issued upon compliance
+
+Step 3: Apply for CBN Form M (attach PC)
+    - Approach Authorized Dealer Bank
+    - Submit Form M application with PC attached
+    - Bank validates and processes through B'Odogwu portal
+
+Step 4: Ship goods to Nigeria
+    - Arrange shipping with approved carrier
+    - Ensure all documentation accompanies shipment
+
+Step 5: Obtain SONCAP Certificate (SC) via IAF
+    - Apply to same IAF that issued the PC
+    - Submit: SC application form, Declaration of Conformity,
+      PC, Form M, commercial invoice, packing list, bill of lading
+    - SC issued within 96 hours (24-hour expedited available)
+
+Step 6: Apply for NCS PAAR (attach SC)
+    - Pre-Arrival Assessment Report through Nigeria Customs
+    - SC must be attached to the PAAR application
+
+Step 7: Process NCS SGD (Single Goods Declaration)
+    - Complete customs declaration through NICIS II
+    - Pay applicable duties and levies
+
+Step 8: SON Port/Border Operations clears consignment
+    - SON inspection at port of entry
+    - Product testing if required
+    - Clearance issued upon compliance
+
+========================================================================
+SECTION 6: NIGERIAN INDUSTRIAL STANDARDS (NIS)
+========================================================================
+
+SON maintains Nigerian Industrial Standards for all product categories.
+Key standards include:
+
+NIS 1: General requirements for labelling of pre-packaged foods
+NIS 057: Nigerian standard for bottled water
+NIS 196: Standard for cement
+NIS 337: Standard for steel bars
+NIS 444: Standard for electrical cables
+NIS 503: Standard for lubricating oils
+NIS 696: Standard for roofing sheets
+NIS 737: Standard for tyres
+
+Full NIS database available at: https://son.gov.ng/standards/
+
+========================================================================
+SECTION 7: KEY URLS AND RESOURCES
+========================================================================
+
+SON Homepage: https://son.gov.ng/
+MANCAP Service: https://son.gov.ng/mancapservice/
+MANCAP FAQ: https://son.gov.ng/mancap-faq/
+MANCAP e-Portal: https://mancap.son.gov.ng/
+SONCAP Service: https://son.gov.ng/soncapservice/
+SONCAP FAQ: https://son.gov.ng/soncap-faq/
+SONCAP Portal: https://soncap.son.gov.ng/
+National Product Certification: https://son.gov.ng/national-product-certification/
+International Product Certification: https://son.gov.ng/son-product-certification/
+SON FAQs: https://son.gov.ng/faqs/
+SON Standards Database: https://son.gov.ng/standards/
+
+Cotecna Importer/Exporter Guide (PDF):
+https://www.cotecna.com/media/bw3aoq33/importer-exporter-guide-soncap-nigeria.pdf

@@ -1,0 +1,420 @@
+AfCFTA RULES OF ANNEX 2 - RULES OF ORIGIN
+Source: African Union / AfCFTA Secretariat (au-afcfta.org)
+Document: Annex 2 to the Protocol on Trade in Goods
+Updated: January 2024
+Reference: Appendix IV - Product-Specific Rules (December 2023)
+
+========================================================================
+AFRICAN CONTINENTAL FREE TRADE AREA (AfCFTA)
+RULES OF ORIGIN - COMPREHENSIVE GUIDE
+========================================================================
+
+The Rules of Origin (RoO) determine whether a product qualifies as
+originating in an AfCFTA State Party and is therefore eligible for
+preferential tariff treatment (reduced or zero tariffs) under the
+AfCFTA Agreement.
+
+========================================================================
+ARTICLE 1: DEFINITIONS
+========================================================================
+
+"Originating goods" means goods that qualify as originating in one or
+more State Parties under these Rules.
+
+"Non-originating materials" means materials that do not qualify as
+originating in any State Party.
+
+"State Party" means a member state of the AfCFTA.
+
+"Ex-works price" means the price paid for the product ex-works in the
+territory of the exporting State Party, after deducting all taxes
+rebated upon export.
+
+"Value of non-originating materials (VNOM)" means the value of all
+materials used in the production of a good that do not qualify as
+originating.
+
+========================================================================
+ARTICLE 4: CRITERIA FOR ORIGINATING GOODS
+========================================================================
+
+A product shall be considered as originating in a State Party if it
+satisfies ONE of the following conditions:
+
+(a) WHOLLY OBTAINED
+    The product is wholly obtained or produced entirely in one or more
+    State Parties. This includes:
+    - Plants and plant products grown, harvested, picked, or gathered
+    - Animals born, raised, and kept in State Party territory
+    - Products from live animals (slaughtered, dressed, etc.)
+    - Products obtained by hunting or fishing
+    - Products from aquaculture (fish, shellfish, aquatic plants)
+    - Minerals and other naturally occurring substances extracted from
+      soil, water, or seabed within State Party territory
+    - Waste and scrap resulting from manufacturing within State Party
+    - Goods produced exclusively from the above categories
+
+    IMPORTANT: For live animals (Chapter 1), the animal must be born AND
+    raised in State Party territory. For fish (Chapter 3), the product
+    must be caught in State Party territorial waters or exclusive
+    economic zone (EEZ). For minerals (Chapters 25-26), extraction must
+    occur within State Party territory.
+
+(b) SUFFICIENTLY WORKED OR PROCESSED
+    The product has been sufficiently worked or processed in one or more
+    State Parties, meeting one of the following criteria (see Article 6):
+    - Value Added Rule
+    - Non-Originating Material Content (VNOM) limit
+    - Change in Tariff Heading (CTH)
+    - Change in Tariff Sub-Heading (CTSH)
+    - Specific Process Rule
+
+========================================================================
+ARTICLE 6: SUFFICIENT WORKING OR PROCESSING RULES
+========================================================================
+
+The following criteria determine whether working or processing is
+sufficient to confer origin:
+
+6.1 VALUE ADDED RULE
+    The ex-works price of the product, minus the value of all
+    non-originating materials, must equal or exceed a specified
+    percentage of the ex-works price (typically 40%).
+
+    Formula: (Ex-works price - VNOM) / Ex-works price >= threshold%
+
+6.2 NON-ORIGINATING MATERIAL (VNOM) CONTENT
+    The value of non-originating materials must not exceed a specified
+    percentage of the ex-works price. The general default is 60% of
+    the ex-works price (meaning at least 40% must be originating).
+
+    Default VNOM limit: 60% of ex-works price (for most product
+    categories unless Appendix IV specifies otherwise)
+
+6.3 CHANGE IN TARIFF HEADING (CTH)
+    The final product must fall under a different 4-digit HS heading
+    than all non-originating materials used in its production.
+
+    Example: If you import fabric (HS Chapter 52) and produce clothing
+    (HS Chapter 61), the change in heading from 52 to 61 qualifies
+    the product as originating.
+
+6.4 CHANGE IN TARIFF SUB-HEADING (CTSH)
+    The final product must fall under a different 6-digit HS sub-heading
+    than all non-originating materials.
+
+6.5 SPECIFIC PROCESS RULE
+    A prescribed technical or manufacturing operation must be performed
+    in State Party territory. This is used primarily for chemicals
+    (Chapters 28-38) where tariff classification may not change but the
+    manufacturing process itself confers origin.
+
+========================================================================
+ARTICLE 6A: TOLERANCE RULE (DE MINIMIS)
+========================================================================
+
+Up to 15% of the ex-works price in non-originating materials may be
+used even when otherwise prohibited by Appendix IV product-specific
+rules.
+
+EXCEPTIONS - The tolerance rule does NOT apply to:
+- Textiles and clothing (Chapters 50-63)
+- Wholly obtained products (where 100% origin is required)
+
+This means for non-textile manufactured goods, even if a product
+specific rule requires CTH (change in tariff heading), you can use up
+to 15% non-originating materials that don't meet the CTH requirement.
+
+========================================================================
+ARTICLE 7: OPERATIONS NOT CONFERRING ORIGIN
+========================================================================
+
+The following operations are insufficient to confer origin:
+
+7.1 Preservation during transport and storage (refrigeration, drying,
+    freezing, ventilation, etc.)
+
+7.2 Packaging and presentation (breaking bulk, repackaging, placing in
+    bottles, bags, boxes, etc.)
+
+7.3 Mere dilution with water or other substances that does not
+    materially alter the characteristics of the product
+
+7.4 Combining operations (assembly, joining) that do not amount to
+    production of a new or different product
+
+7.5 Agricultural products obtained from products originating from
+    food aid, monetisation, or barter arrangements
+
+7.6 Simple mixing or blending that does not produce a product with
+    different physical or chemical characteristics
+
+========================================================================
+ARTICLE 8: CUMULATION
+========================================================================
+
+AfCFTA provides two forms of cumulation:
+
+8.1 BILATERAL CUMULATION (Article 8(2))
+    Materials originating in any AfCFTA State Party that are used in
+    the production of a good in another State Party shall be considered
+    as originating in the State Party where the final production occurs.
+
+    Example: Cocoa beans from Ghana (originating) processed into
+    chocolate in Nigeria. The Ghanaian cocoa counts as Nigerian-origin
+    input for RoO purposes.
+
+8.2 FULL CUMULATION (Article 8(3))
+    Working or processing performed in a State Party on materials from
+    another State Party counts towards origin, even if those materials
+    do not themselves qualify as originating.
+
+    This means even if raw materials from Country A don't meet the RoO
+    independently, any processing done on them in Country B counts as
+    originating work.
+
+8.3 PROOF OF ORIGIN FOR CUMULATED MATERIALS
+    The originating status of cumulated materials must be proven by:
+    - An AfCFTA Certificate of Origin (Appendix I form), OR
+    - An Origin Declaration on a commercial document
+
+    These must be issued by the Designated Competent Authority of the
+    originating State Party.
+
+========================================================================
+ARTICLE 17-31: PROOF OF ORIGIN
+========================================================================
+
+CERTIFICATE OF ORIGIN:
+- Must be issued by a Designated Competent Authority in the exporting
+  State Party (in Nigeria: Nigeria Customs Service)
+- Must use the form in Appendix I to Annex 2
+- Valid for 12 months from date of issue
+- Must be prepared in an AU official language (Arabic, English, French,
+  Portuguese, or Swahili)
+- Can be issued in hard copy or electronic format
+
+ORIGIN DECLARATION:
+- May be used for low-value consignments or by approved exporters
+- Placed directly on the invoice or commercial document
+- Requires prior approval from the competent authority
+- Contains the same information as the Certificate of Origin
+
+ABSORPTION PRINCIPLE:
+- Once materials have acquired originating status through sufficient
+  processing, they retain that status when used as inputs in downstream
+  production
+- The downstream producer does not need to re-prove the origin of
+  already-originating inputs
+
+========================================================================
+APPENDIX IV: PRODUCT-SPECIFIC RULES (KEY CATEGORIES)
+========================================================================
+
+The following are the product-specific rules of origin for key HS
+chapters. Each specifies the minimum working/processing required.
+
+--- CHAPTERS 1-24: AGRICULTURE AND FOOD ---
+
+Chapter 1 (Live Animals):
+    Wholly obtained rule. Animals must be born, raised, and kept
+    entirely in State Party territory.
+
+Chapter 2 (Meat):
+    Wholly obtained or CTH from Chapter 1. Animals must be slaughtered
+    in State Party territory.
+
+Chapter 3 (Fish and Aquatic Products):
+    Wholly obtained. Fish must be caught in State Party territorial
+    waters or EEZ. Aquaculture products must be farmed in State Parties.
+
+Chapter 4 (Dairy):
+    CTH or VNOM threshold. Milk must be collected from animals raised
+    in State Parties. Processing into cheese, butter, etc. requires
+    change in tariff heading.
+
+Chapter 7-8 (Vegetables and Fruits):
+    Fresh produce: wholly obtained rule.
+    Prepared/preserved: CTH from fresh state.
+
+Chapter 10-11 (Cereals):
+    Wholly obtained (grown and harvested in State Party) or CTH.
+    Wheat flour: CTH rule subject to 5-year review.
+
+Chapter 17 (Sugar):
+    CTH plus specific process rule. Beet or cane processing must occur
+    in State Party territory. Subject to 5-year review.
+
+--- CHAPTERS 25-27: MINERALS AND FUELS ---
+
+Chapter 25 (Salt, Sulphur, Earths, Stone, Cement):
+    Manufacture rule: all materials must be wholly obtained.
+    Cement: CTH from raw materials (clinker must be produced or processed).
+
+Chapter 26 (Ores, Slag, Ash):
+    Manufacture with wholly obtained materials.
+
+Chapter 27 (Petroleum and Energy):
+    Crude petroleum (27.09): Specific process rule - refining and/or
+    one or more specific processes must occur in State Party territory.
+    Petroleum gases/LNG (27.11): Refining/processing RoO.
+    Petroleum coke/bitumen (27.13): Manufacture from materials of any
+    heading.
+
+--- CHAPTERS 28-38: CHEMICALS AND PLASTICS ---
+
+Appendix IV includes SEVEN specific process rules conferring origin:
+
+    1. Chemical Reaction Origin: A chemical reaction in State Party
+       territory that produces a chemically different product.
+    2. Purification Origin: Purification process that removes
+       impurities and produces a substance of greater purity.
+    3. Mixtures and Blends: Deliberate, proportionally controlled
+       mixing/blending producing different physical/chemical
+       characteristics.
+    4. Enantiomer Separation: Separation of optical isomers.
+    5. Standards Materials: Production of reference standards.
+    6. Isomer Separation: Isolation or separation of isomers.
+    7. Biological Origin: Fermentation, extraction, or enzymatic
+       processes.
+
+--- CHAPTERS 50-63: TEXTILES AND CLOTHING ---
+
+Chapter Rules:
+    Many yarn and fabric headings have agreed chapter rules (e.g.,
+    manufacture from yarn).
+
+Double Transformation Rule:
+    For clothing (Chapters 61, 62): A double transformation is required
+    for a 5-year period with review. This means the fabric must be
+    produced (or undergo sufficient processing) AND then sewn into
+    garments in State Party territory.
+
+    The tolerance rule (15% de minimis) does NOT apply to textiles
+    and clothing.
+
+    Non-originating material content thresholds apply strictly.
+
+    Note: Many yarn and fabric headings (wool, cotton, synthetic staples)
+    still lack finalized RoO as of early 2026.
+
+--- CHAPTERS 64-67: FOOTWEAR ---
+
+    CTH or VNOM threshold for most footwear categories.
+
+--- CHAPTERS 72-83: BASE METALS ---
+
+    CTH or value-added rule. Steel products require significant
+    transformation (rolling, coating, forming) in State Party territory.
+
+--- CHAPTERS 84-85: MACHINERY AND ELECTRONICS ---
+
+    Generally CTH or VNOM threshold. Assembly alone is not sufficient
+    unless it results in a new product with different tariff classification.
+
+--- CHAPTER 87: AUTOMOTIVE ---
+
+    Rules are NOT yet fully agreed for most headings. Passenger vehicles,
+    goods transport vehicles, motorcycles, and trailers: rules pending.
+    Agreed rules are subject to review after 5 years.
+
+--- CHAPTERS 30: PHARMACEUTICALS ---
+
+    Manufacture from materials of any heading except that of the product.
+    CTH rule generally applies.
+
+========================================================================
+TARIFF LIBERALIZATION SCHEDULE STRUCTURE
+========================================================================
+
+AfCFTA tariff concessions are organized in 3 categories:
+
+Category A (Non-Sensitive Products):
+    - 90% of tariff lines
+    - Progressive elimination to zero tariff
+    - Developing countries: 10-year phase-out from January 1, 2021
+    - LDCs (including ECOWAS members): 13-year phase-out
+
+Category B (Sensitive Products):
+    - 7% of tariff lines
+    - Longer transition period
+    - Developing countries: 13 years
+    - LDCs: 15 years
+
+Category C (Excluded Products):
+    - 3% of tariff lines
+    - Permanently exempt from tariff reductions
+    - Must not exceed 10% of intra-African import value
+
+Nigeria's Status:
+    - 92.3% of tariff lines have finalized RoO
+    - Outstanding: most textiles/clothing and automotive headings
+    - Nigeria gazetted its Provisional Schedule on April 15, 2025
+    - Category A products: 10% annual reduction toward zero
+    - Category B (sensitive): ~427 tariff lines with delayed liberalization
+    - Category C (excluded): ~184 tariff lines including rice, flour,
+      sugar, cement, and import-prohibited goods
+
+========================================================================
+KEY TARIFF OPPORTUNITIES FOR NIGERIA
+========================================================================
+
+Products where Nigeria faces high tariffs (>20%) in African markets
+and would benefit most from AfCFTA tariff reductions:
+
+1. Crustaceans/shrimp (HS 03) - Nigeria is 2nd largest producer in Africa
+2. Beer (HS 22) - currently faces 30% tariff in Cameroon
+3. Cocoa beans and products (HS 18)
+4. Sesame seeds (HS 12)
+5. Shea nuts and products (HS 12)
+6. Cassava products
+7. Cotton (Chapter 52)
+8. Palm oil products
+9. Fish products
+10. Processed foods
+
+Nigeria's current intra-African exports: ~82% crude oil, 4.2% natural gas.
+AfCFTA tariff reductions on non-oil goods could help diversify exports.
+
+========================================================================
+CERTIFICATE OF ORIGIN ISSUANCE IN NIGERIA
+========================================================================
+
+- Issuing Authority: Nigeria Customs Service (NCS)
+- Application Portal: NEPC (Nigerian Export Promotion Council)
+- Distinct from general export certificates
+- Must accompany all AfCFTA preferential tariff claims
+- Valid for 12 months from date of issue
+- Processing: Typically 2-5 working days
+
+========================================================================
+GUIDED TRADE INITIATIVE (GTI) STATUS
+========================================================================
+
+The Guided Trade Initiative is the pilot program for AfCFTA
+implementation. As of 2024:
+
+- 8+ countries actively trading under agreed rules
+- Countries include: Cameroon, Ghana, Kenya, Egypt, Rwanda, Tanzania,
+  Tunisia, and others
+- Products covered include agricultural goods, textiles, and
+  manufactured products
+- Provides practical experience for full implementation
+
+========================================================================
+REFERENCES
+========================================================================
+
+Official Sources:
+- Annex 2 to the Protocol on Trade in Goods (January 2024 update)
+- Appendix IV - Product-Specific Rules (December 2023)
+- AfCFTA Rules of Origin Manual (Volume 1.0)
+- WCO Practical Guide for Implementation
+- Tralac AfCFTA Frequently Asked Questions (May 2025)
+- Nigeria AfCFTA Achievements 2025 (FMITI)
+
+Key URLs:
+- AfCFTA e-Tariff Book: https://etariff.au-afcfta.org/mapsearch
+- UNCTAD AfCFTA Tariff Database: https://afcfta.unctad.org/tariffs
+- Nigeria Customs CET: https://cet.customs.gov.ng
+- Tralac AfCFTA Guide: https://www.tralac.org

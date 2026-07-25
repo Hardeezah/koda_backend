@@ -1,14 +1,24 @@
-from fastapi import APIRouter, HTTPException
-from pydantic import BaseModel
-from app.domain.models import ComplianceReport
+import logging
+from fastapi import APIRouter, HTTPException, Depends
+from pydantic import BaseModel, field_validator
 from app.infrastructure.ai.intelligence import intelligence_service
+from app.api.v1.deps import get_current_user
+
+logger = logging.getLogger(__name__)
 
 router = APIRouter(tags=["Compliance"])
 
 
 class ImageAnalysisRequest(BaseModel):
     base64_image: str
-    direction: str = "import"  # 'import' or 'export'
+    direction: str = "import"
+
+    @field_validator("direction")
+    @classmethod
+    def validate_direction(cls, v: str) -> str:
+        if v not in ("import", "export"):
+            raise ValueError("direction must be 'import' or 'export'")
+        return v
 
 
 class TextComplianceRequest(BaseModel):
@@ -16,8 +26,16 @@ class TextComplianceRequest(BaseModel):
     hs_code: str | None = None
     direction: str = "import"
 
+    @field_validator("direction")
+    @classmethod
+    def validate_direction(cls, v: str) -> str:
+        if v not in ("import", "export"):
+            raise ValueError("direction must be 'import' or 'export'")
+        return v
+
+
 class DocumentGenerationRequest(BaseModel):
-    document_code: str        # e.g. "FORM_M", "COO", "NXP"
+    document_code: str
     document_name: str
     product_name: str
     hs_code: str | None = None
@@ -27,9 +45,19 @@ class DocumentGenerationRequest(BaseModel):
     business_address: str | None = None
     cac_number: str | None = None
 
+    @field_validator("direction")
+    @classmethod
+    def validate_direction(cls, v: str) -> str:
+        if v not in ("import", "export"):
+            raise ValueError("direction must be 'import' or 'export'")
+        return v
+
 
 @router.post("/check")
-async def check_compliance(request: TextComplianceRequest):
+async def check_compliance(
+    request: TextComplianceRequest,
+    user_id: str = Depends(get_current_user),
+):
     try:
         return await intelligence_service.analyze_compliance(
             product_name=request.product_name,
@@ -37,11 +65,15 @@ async def check_compliance(request: TextComplianceRequest):
             direction=request.direction,
         )
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        logger.exception("Compliance check failed for %s", request.product_name)
+        raise HTTPException(status_code=500, detail="Compliance check failed")
 
 
 @router.post("/analyze_image")
-async def analyze_image_endpoint(request: ImageAnalysisRequest):
+async def analyze_image_endpoint(
+    request: ImageAnalysisRequest,
+    user_id: str = Depends(get_current_user),
+):
     try:
         if not request.base64_image:
             raise HTTPException(status_code=400, detail="base64_image is required")
@@ -50,15 +82,20 @@ async def analyze_image_endpoint(request: ImageAnalysisRequest):
             direction=request.direction,
         )
         return result
+    except HTTPException:
+        raise
     except Exception as e:
-        print(f"[ERROR] analyze_image_endpoint: {e}")
-        raise HTTPException(status_code=500, detail=f"Vision analysis failed: {str(e)}")
+        logger.exception("Image analysis failed")
+        raise HTTPException(status_code=500, detail="Vision analysis failed")
 
 
 @router.post("/generate_document")
-async def generate_document(request: DocumentGenerationRequest):
+async def generate_document(
+    request: DocumentGenerationRequest,
+    user_id: str = Depends(get_current_user),
+):
     try:
-        print(f"[DOC] Generating: {request.document_code} for {request.product_name}")
+        logger.info("Generating document: %s for %s", request.document_code, request.product_name)
         result = await intelligence_service.generate_document(
             document_code=request.document_code,
             document_name=request.document_name,
@@ -70,10 +107,7 @@ async def generate_document(request: DocumentGenerationRequest):
             business_address=request.business_address,
             cac_number=request.cac_number,
         )
-        print(f"[DOC] Result keys: {list(result.keys())}")
         return result
     except Exception as e:
-        print(f"[ERROR] generate_document: {e}")
-        import traceback
-        print(traceback.format_exc())
-        raise HTTPException(status_code=500, detail=str(e))
+        logger.exception("Document generation failed")
+        raise HTTPException(status_code=500, detail="Document generation failed")

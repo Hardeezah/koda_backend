@@ -1,0 +1,294 @@
+AFcFTA NIGERIA TARIFF OFFER AND SCHEDULE OF CONCESSIONS
+Source: Federal Ministry of Industry, Trade and Investment (FMITI)
+Reference: Nigeria Provisional Schedule of Tariff Concessions (PSTCs)
+Gazetted: April 15, 2025
+Status: Nigeria is the 23rd State Party to gazette its PSTCs
+Framework: ECOWAS Customs Union LDC Timeline
+
+========================================================================
+NIGERIA'S AFCFTA TARIFF REDUCTION COMMITMENTS - COMPLETE REFERENCE
+========================================================================
+
+========================================================================
+SECTION 1: TARIFF PHASE-OUT FRAMEWORK
+========================================================================
+
+Nigeria follows the ECOWAS Customs Union timeline as a member of the
+Economic Community of West African States. Since ECOWAS includes Least
+Developed Countries (LDCs), the union adopted the longer LDC phase-down
+schedule.
+
+Three product categories govern the tariff reduction:
+
+CATEGORY A (Non-Sensitive Products) - 90% of tariff lines:
+    - Progressive elimination to ZERO tariff
+    - LDC phase-out: 13 years from January 1, 2021
+    - Annual linear reduction: ~7.7% per year
+    - Target completion: December 31, 2033
+    - 50% reduction achieved by 2025 (Year 5)
+
+CATEGORY B (Sensitive Products) - 7% of tariff lines (~427 lines):
+    - Longer transition with backloaded reductions
+    - LDC phase-out: 15 years from January 1, 2021
+    - Target completion: December 31, 2035
+    - Includes products where Nigeria has significant industrial concerns
+
+CATEGORY C (Excluded Products) - 3% of tariff lines (~184 lines):
+    - PERMANENTLY exempt from any tariff reduction
+    - Covers food security items, infant industries, fiscal revenue items
+    - Must not exceed 10% of intra-African import value
+
+========================================================================
+SECTION 2: ANNUAL TARIFF REDUCTION SCHEDULE (CATEGORY A)
+========================================================================
+
+Year 1 (2021): Base rates established
+Year 2 (2022): ~7.7% reduction from base
+Year 3 (2023): ~15.4% reduction from base
+Year 4 (2024): ~23.1% reduction from base
+Year 5 (2025): ~30.8% reduction from base (50% target missed slightly)
+Year 6 (2026): ~38.5% reduction from base
+Year 7 (2027): ~46.2% reduction from base
+Year 8 (2028): ~53.8% reduction from base
+Year 9 (2029): ~61.5% reduction from base
+Year 10 (2030): ~69.2% reduction from base
+Year 11 (2031): ~76.9% reduction from base
+Year 12 (2032): ~84.6% reduction from base
+Year 13 (2033): 100% - ZERO TARIFF achieved
+
+========================================================================
+SECTION 3: NIGERIA'S EXCLUSION LIST (CATEGORY C) - ~184 LINES
+========================================================================
+
+Products permanently exempt from tariff liberalization:
+
+3.1 FOOD SECURITY PRODUCTS:
+    - Rice (semi-milled/wholly milled) - HS Chapter 10
+    - Flour (meal and powder) - HS Chapter 11
+    - Cocoyam flour - HS Chapter 11
+    - Sugar - HS Chapter 17
+    Rationale: Protection of domestic agricultural production and
+    food security
+
+3.2 INFANT INDUSTRY PROTECTION:
+    - Cement - HS Chapter 25
+    - Automobiles (certain categories) - HS Chapter 87
+    Rationale: Protecting nascent domestic manufacturing
+
+3.3 EXISTING IMPORT PROHIBITION LIST:
+    - Approximately 131 products already on Nigeria's import
+      prohibition list under the CET
+    These are automatically excluded from AfCFTA tariff concessions
+
+3.4 ADDITIONAL EXCLUSIONS:
+    - Selected products for national policy reasons
+    - Products on the sensitive list with high trade volume impact
+
+========================================================================
+SECTION 4: NIGERIA'S SENSITIVE LIST (CATEGORY B) - ~427 LINES
+========================================================================
+
+Products with delayed liberalization (15-year transition):
+
+Selection criteria:
+- Products where Nigerian industries have significant competitive concerns
+- Manufacturing goods facing import surge risk
+- Products identified by NOTN (National Office for Technology
+  Acquisition and Promotion) in consultation with industry
+- Products with high employment multiplier effects
+
+General categories expected on the sensitive list:
+- Processed food products with local manufacturing
+- Textile products (subject to ongoing RoO negotiation)
+- Consumer electronics assembly
+- Basic chemicals and pharmaceuticals
+- Plastic and rubber products
+- Paper and packaging products
+
+Note: The full product-by-product list has not been completely
+published but is contained in the gazetted PSTCs.
+
+========================================================================
+SECTION 5: COMMON EXTERNAL TARIFF (CET) DUTY BANDS
+========================================================================
+
+Nigeria applies the ECOWAS CET 2022-2026 framework:
+
+Band 0 - 0% Duty:
+    Essential social goods
+    Examples: Medicines, capital equipment, industrial machinery,
+    agricultural implements, books, educational materials, medical devices
+
+Band 1 - 5% Duty:
+    Raw materials and primary inputs
+    Examples: Crude oil, unprocessed agricultural products, basic
+    chemicals, minerals
+
+Band 2 - 10% Duty:
+    Intermediate and semi-processed goods
+    Examples: Processed food ingredients, basic manufactured components,
+    semi-finished metals
+
+Band 3 - 20% Duty:
+    Finished consumer goods
+    Examples: Electronics, household items, processed foods, furniture
+
+Band 4 - 35% Duty:
+    Sensitive/protected sectors
+    Examples: Textiles, certain automobiles, luxury goods, tobacco
+
+ADDITIONAL LEVIES (cumulative on top of base duty):
+    VAT: 7.5% on (CIF + duty + levies)
+    CISS (Comprehensive Import Supervision Scheme): 1% of FOB
+    ETLS Levy: 0.5% of FOB
+    Surcharge: 7% of duty amount
+    NAC Levy (vehicles): 15% used, 20% new
+    Green Tax (2026): 2% on vehicles >= 2,000cc
+    NAFDAC Levy: Variable by product category
+
+Effective total duty burden often exceeds 50% of CIF value.
+
+========================================================================
+SECTION 6: TARIFF RATES BY HS CHAPTER (KEY CATEGORIES)
+========================================================================
+
+AGRICULTURE (Chapters 1-24):
+    Most agricultural products: Band 1-2 (5-10%)
+    Rice (1006): Excluded from liberalization (Category C)
+    Sugar (1701-1702): Excluded from liberalization
+    Processed foods: Band 2-3 (10-20%)
+    Live animals (01): Band 1 (5%)
+    Meat products (02): Band 2-3 (10-20%)
+    Fish (03): Band 2 (10%)
+    Dairy (04): Band 2 (10%)
+    Vegetables/frruits (07-08): Band 1-2 (5-10%)
+    Cereals (10-11): Mixed - some excluded
+
+MINERALS AND FUELS (Chapters 25-27):
+    Salt, sulphur (25): Band 1 (5%)
+    Cement (2523): Excluded from liberalization
+    Ores (26): Band 1 (5%)
+    Crude petroleum (2709): Band 0-1 (0-5%)
+    Refined petroleum (2710): Band 2 (10%)
+    LNG (2711): Band 0-1 (0-5%)
+    Bitumen (2713): Band 1 (5%)
+
+CHEMICALS (Chapters 28-38):
+    Basic chemicals: Band 1-2 (5-10%)
+    Pharmaceuticals (30): Band 0-1 (0-5%) for essential medicines
+    Cosmetics (33): Band 3 (20%)
+    Plastics (39): Band 2-3 (10-20%)
+    Rubber (40): Band 2 (10%)
+
+TEXTILES (Chapters 50-63):
+    Rules of origin still under negotiation
+    Cotton yarn (52): Band 2 (10%)
+    Woven fabrics (52-53): Band 3 (20%)
+    Clothing (61-62): Band 3-4 (20-35%)
+    Subject to double transformation RoO when finalized
+
+FOOTWEAR (Chapters 64-67):
+    Band 3 (20%)
+
+BASE METALS (Chapters 72-83):
+    Iron and steel (72-73): Band 2-3 (10-20%)
+    Aluminum (76): Band 2 (10%)
+    Articles of metal (82-83): Band 3 (20%)
+
+MACHINERY (Chapters 84-85):
+    Industrial machinery (84): Band 0-1 (0-5%)
+    Electrical equipment (85): Band 2-3 (10-20%)
+    Electronics: Band 3 (20%)
+
+VEHICLES (Chapter 87):
+    Rules of origin still under negotiation
+    Motor vehicles: Band 3-4 (20-35%)
+    Parts and accessories: Band 2-3 (10-20%)
+    NAC Levy adds 15-20% on top
+
+========================================================================
+SECTION 7: KEY EXPORT OPPORTUNITIES UNDER AFCFTA
+========================================================================
+
+Products where Nigeria currently faces high tariffs in African markets
+and would benefit from AfCFTA zero-tariff access:
+
+HIGH OPPORTUNITY PRODUCTS:
+    1. Crustaceans/shrimp (HS 03): Nigeria is Africa's 2nd largest
+       producer. Currently faces 20%+ tariffs in key markets.
+    2. Beer (HS 22): Faces 30% tariff in Cameroon
+    3. Cocoa beans and products (HS 18): Strong export potential
+    4. Sesame seeds (HS 12): Already exported to Asia, African market
+       untapped
+    5. Shea nuts/products (HS 12): West African production advantage
+    6. Cassava products: Regional trade potential
+    7. Cotton (Chapter 52): Nigeria has production capacity
+    8. Palm oil products: Competitive pricing
+    9. Fish products: Strong aquaculture sector
+    10. Processed foods: Growing African middle class demand
+
+CURRENT EXPORT PROFILE:
+    - ~82% crude oil
+    - ~4.2% natural gas
+    - ~13.8% non-oil exports
+    AfCFTA could help diversify beyond oil dependence.
+
+========================================================================
+SECTION 8: AFCFTA CERTIFICATE OF ORIGIN (NIGERIA)
+========================================================================
+
+Issuing Authority: Nigeria Customs Service (NCS)
+Application Portal: Nigerian Export Promotion Council (NEPC)
+Processing Time: 2-5 working days
+Validity: 12 months from date of issue
+Languages: English (AU official language)
+
+Requirements for application:
+    1. Valid NEPC registration
+    2. CAC incorporation certificate
+    3. Product description and HS code
+    4. Evidence of originating status (manufacturing records, etc.)
+    5. Supporting documentation as required by NCS
+
+The AfCFTA Certificate of Origin is distinct from general export
+certificates and is mandatory for claiming preferential tariff
+treatment in importing State Parties.
+
+========================================================================
+SECTION 9: NON-TARIFF BARRIERS AND IMPLEMENTATION
+========================================================================
+
+9.1 Nigeria's first AfCFTA shipment occurred in July 2024.
+
+9.2 FMITI launched a dedicated Exports Air Cargo Corridor to East
+    and Southern Africa through partnership with Uganda Airlines and
+    UNDP, offering 50-75% cheaper shipping rates.
+
+9.3 The B'Odogwu trade portal (bodogwu.customs.gov.ng) is the primary
+    platform for all trade documentation.
+
+9.4 All customs processing is through NICIS II (Nigeria Integrated
+    Customs Information System).
+
+9.5 The 131 products on Nigeria's existing import prohibition list
+    remain restricted regardless of AfCFTA commitments.
+
+========================================================================
+REFERENCES
+========================================================================
+
+Official Sources:
+- Nigeria Provisional Schedule of Tariff Concessions (gazetted April 2025)
+- ECOWAS Common External Tariff 2022-2026
+- AfCFTA Annex 1: Schedules of Tariff Concessions
+- FMITI Nigeria AfCFTA Achievements 2025
+- Tralac AfCFTA Guide (12th Edition, May 2024)
+- NIPC AfCFTA Impact and Readiness Assessment
+- Harvard Growth Lab Export Opportunity Assessment
+
+Key URLs:
+- AfCFTA e-Tariff Book: https://etariff.au-afcfta.org/mapsearch
+- UNCTAD AfCFTA Tariff Database: https://afcfta.unctad.org/tariffs
+- Nigeria Customs CET Lookup: https://cet.customs.gov.ng
+- Nigeria Trade Portal: https://trade.gov.ng
+- Tralac AfCFTA Guide: https://www.tralac.org
